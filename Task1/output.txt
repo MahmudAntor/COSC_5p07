@@ -1,0 +1,4185 @@
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ant.far.MyBenchmark.insertIntoHashSet
+
+# Run progress: 0.00% complete, ETA 02:15:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 11.113 ops/s
+# Warmup Iteration   2: 12.691 ops/s
+# Warmup Iteration   3: 11.120 ops/s
+# Warmup Iteration   4: 11.262 ops/s
+# Warmup Iteration   5: 11.336 ops/s
+Iteration   1: 11.344 ops/s
+Iteration   2: 11.239 ops/s
+Iteration   3: 11.953 ops/s
+Iteration   4: 12.517 ops/s
+Iteration   5: 10.709 ops/s
+Iteration   6: 10.725 ops/s
+Iteration   7: 11.123 ops/s
+Iteration   8: 11.493 ops/s
+Iteration   9: 11.472 ops/s
+Iteration  10: 11.955 ops/s
+
+# Run progress: 1.85% complete, ETA 02:13:32
+# Fork: 1 of 1
+# Warmup Iteration   1: 11.054 ops/s
+# Warmup Iteration   2: 11.677 ops/s
+# Warmup Iteration   3: 12.545 ops/s
+# Warmup Iteration   4: 11.349 ops/s
+# Warmup Iteration   5: 12.363 ops/s
+Iteration   1: 11.608 ops/s
+Iteration   2: 11.886 ops/s
+Iteration   3: 12.070 ops/s
+Iteration   4: 11.723 ops/s
+Iteration   5: 10.842 ops/s
+Iteration   6: 11.345 ops/s
+Iteration   7: 12.799 ops/s
+Iteration   8: 12.321 ops/s
+Iteration   9: 12.319 ops/s
+Iteration  10: 12.050 ops/s
+
+
+Result "ant.far.MyBenchmark.insertIntoHashSet":
+  11.896 ±(99.9%) 0.836 ops/s [Average]
+  (min, avg, max) = (10.842, 11.896, 12.799), stdev = 0.553
+  CI (99.9%): [11.060, 12.733] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ant.far.MyBenchmark.insertIntoLinkedHashSet
+
+# Run progress: 3.70% complete, ETA 02:10:55
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 9.677 ops/s
+# Warmup Iteration   2: 11.501 ops/s
+# Warmup Iteration   3: 11.976 ops/s
+# Warmup Iteration   4: 10.825 ops/s
+# Warmup Iteration   5: 11.266 ops/s
+Iteration   1: 11.873 ops/s
+Iteration   2: 11.350 ops/s
+Iteration   3: 11.146 ops/s
+Iteration   4: 11.514 ops/s
+Iteration   5: 11.337 ops/s
+Iteration   6: 11.148 ops/s
+Iteration   7: 11.327 ops/s
+Iteration   8: 11.514 ops/s
+Iteration   9: 10.584 ops/s
+Iteration  10: 10.777 ops/s
+
+# Run progress: 5.56% complete, ETA 02:08:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 10.061 ops/s
+# Warmup Iteration   2: 11.669 ops/s
+# Warmup Iteration   3: 11.544 ops/s
+# Warmup Iteration   4: 12.038 ops/s
+# Warmup Iteration   5: 11.607 ops/s
+Iteration   1: 10.986 ops/s
+Iteration   2: 10.896 ops/s
+Iteration   3: 11.394 ops/s
+Iteration   4: 11.036 ops/s
+Iteration   5: 10.677 ops/s
+Iteration   6: 10.903 ops/s
+Iteration   7: 11.124 ops/s
+Iteration   8: 11.370 ops/s
+Iteration   9: 10.511 ops/s
+Iteration  10: 11.931 ops/s
+
+
+Result "ant.far.MyBenchmark.insertIntoLinkedHashSet":
+  11.083 ±(99.9%) 0.611 ops/s [Average]
+  (min, avg, max) = (10.511, 11.083, 11.931), stdev = 0.404
+  CI (99.9%): [10.472, 11.694] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ant.far.MyBenchmark.insertIntoTreeSet
+
+# Run progress: 7.41% complete, ETA 02:05:52
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 2.571 ops/s
+# Warmup Iteration   2: 2.504 ops/s
+# Warmup Iteration   3: 2.361 ops/s
+# Warmup Iteration   4: 2.405 ops/s
+# Warmup Iteration   5: 2.580 ops/s
+Iteration   1: 2.456 ops/s
+Iteration   2: 2.492 ops/s
+Iteration   3: 2.358 ops/s
+Iteration   4: 2.490 ops/s
+Iteration   5: 2.467 ops/s
+Iteration   6: 2.591 ops/s
+Iteration   7: 2.590 ops/s
+Iteration   8: 2.636 ops/s
+Iteration   9: 2.531 ops/s
+Iteration  10: 2.587 ops/s
+
+# Run progress: 9.26% complete, ETA 02:03:47
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.335 ops/s
+# Warmup Iteration   2: 2.511 ops/s
+# Warmup Iteration   3: 2.588 ops/s
+# Warmup Iteration   4: 2.595 ops/s
+# Warmup Iteration   5: 2.622 ops/s
+Iteration   1: 2.598 ops/s
+Iteration   2: 2.535 ops/s
+Iteration   3: 2.233 ops/s
+Iteration   4: 2.339 ops/s
+Iteration   5: 2.282 ops/s
+Iteration   6: 2.267 ops/s
+Iteration   7: 2.302 ops/s
+Iteration   8: 2.259 ops/s
+Iteration   9: 2.258 ops/s
+Iteration  10: 2.278 ops/s
+
+
+Result "ant.far.MyBenchmark.insertIntoTreeSet":
+  2.335 ±(99.9%) 0.191 ops/s [Average]
+  (min, avg, max) = (2.233, 2.335, 2.598), stdev = 0.126
+  CI (99.9%): [2.145, 2.526] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ant.far.MyBenchmark.searchInHashSet
+
+# Run progress: 11.11% complete, ETA 02:01:31
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 100960177.434 ops/s
+# Warmup Iteration   2: 101148517.539 ops/s
+# Warmup Iteration   3: 101782433.305 ops/s
+# Warmup Iteration   4: 102282552.832 ops/s
+# Warmup Iteration   5: 102415232.104 ops/s
+Iteration   1: 102189296.264 ops/s
+Iteration   2: 105370541.479 ops/s
+Iteration   3: 104861218.851 ops/s
+Iteration   4: 102200231.952 ops/s
+Iteration   5: 102190396.919 ops/s
+Iteration   6: 101980222.179 ops/s
+Iteration   7: 102160874.846 ops/s
+Iteration   8: 102417468.515 ops/s
+Iteration   9: 103071209.378 ops/s
+Iteration  10: 104822015.619 ops/s
+
+# Run progress: 12.96% complete, ETA 01:58:49
+# Fork: 1 of 1
+# Warmup Iteration   1: 101515134.076 ops/s
+# Warmup Iteration   2: 102194641.337 ops/s
+# Warmup Iteration   3: 102249935.858 ops/s
+# Warmup Iteration   4: 102184771.658 ops/s
+# Warmup Iteration   5: 102547142.299 ops/s
+Iteration   1: 102052077.954 ops/s
+Iteration   2: 101411348.891 ops/s
+Iteration   3: 105554651.317 ops/s
+Iteration   4: 102812202.036 ops/s
+Iteration   5: 106429338.463 ops/s
+Iteration   6: 105935412.767 ops/s
+Iteration   7: 105079895.988 ops/s
+Iteration   8: 102510866.521 ops/s
+Iteration   9: 103878442.381 ops/s
+Iteration  10: 104764471.054 ops/s
+
+
+Result "ant.far.MyBenchmark.searchInHashSet":
+  104042870.737 ±(99.9%) 2663584.552 ops/s [Average]
+  (min, avg, max) = (101411348.891, 104042870.737, 106429338.463), stdev = 1761796.263
+  CI (99.9%): [101379286.185, 106706455.290] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ant.far.MyBenchmark.searchInLinkedHashSet
+
+# Run progress: 14.81% complete, ETA 01:56:10
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 106989943.458 ops/s
+# Warmup Iteration   2: 108478207.572 ops/s
+# Warmup Iteration   3: 106954304.918 ops/s
+# Warmup Iteration   4: 108531423.410 ops/s
+# Warmup Iteration   5: 107918818.526 ops/s
+Iteration   1: 108664214.078 ops/s
+Iteration   2: 108278429.999 ops/s
+Iteration   3: 105773352.969 ops/s
+Iteration   4: 103611074.784 ops/s
+Iteration   5: 103318883.356 ops/s
+Iteration   6: 103519034.446 ops/s
+Iteration   7: 103083433.093 ops/s
+Iteration   8: 103438399.060 ops/s
+Iteration   9: 103506562.123 ops/s
+Iteration  10: 103011519.390 ops/s
+
+# Run progress: 16.67% complete, ETA 01:53:32
+# Fork: 1 of 1
+# Warmup Iteration   1: 101308181.528 ops/s
+# Warmup Iteration   2: 104598646.615 ops/s
+# Warmup Iteration   3: 104102972.298 ops/s
+# Warmup Iteration   4: 102062284.025 ops/s
+# Warmup Iteration   5: 102181390.404 ops/s
+Iteration   1: 102025811.637 ops/s
+Iteration   2: 102029156.583 ops/s
+Iteration   3: 102544177.207 ops/s
+Iteration   4: 101860332.083 ops/s
+Iteration   5: 101590490.223 ops/s
+Iteration   6: 101757081.516 ops/s
+Iteration   7: 101703414.506 ops/s
+Iteration   8: 101547855.026 ops/s
+Iteration   9: 102352687.193 ops/s
+Iteration  10: 102986904.516 ops/s
+
+
+Result "ant.far.MyBenchmark.searchInLinkedHashSet":
+  102039791.049 ±(99.9%) 698077.542 ops/s [Average]
+  (min, avg, max) = (101547855.026, 102039791.049, 102986904.516), stdev = 461735.072
+  CI (99.9%): [101341713.507, 102737868.591] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ant.far.MyBenchmark.searchInTreeSet
+
+# Run progress: 18.52% complete, ETA 01:50:57
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 92985736.823 ops/s
+# Warmup Iteration   2: 100232243.569 ops/s
+# Warmup Iteration   3: 102219547.865 ops/s
+# Warmup Iteration   4: 102518567.158 ops/s
+# Warmup Iteration   5: 102573715.992 ops/s
+Iteration   1: 102265611.503 ops/s
+Iteration   2: 103050027.006 ops/s
+Iteration   3: 102560754.384 ops/s
+Iteration   4: 105287813.456 ops/s
+Iteration   5: 106139069.893 ops/s
+Iteration   6: 106748939.019 ops/s
+Iteration   7: 107414068.624 ops/s
+Iteration   8: 107172861.285 ops/s
+Iteration   9: 103854898.700 ops/s
+Iteration  10: 103009391.581 ops/s
+
+# Run progress: 20.37% complete, ETA 01:48:22
+# Fork: 1 of 1
+# Warmup Iteration   1: 93285883.575 ops/s
+# Warmup Iteration   2: 100276452.396 ops/s
+# Warmup Iteration   3: 102745748.283 ops/s
+# Warmup Iteration   4: 102494856.416 ops/s
+# Warmup Iteration   5: 102703994.289 ops/s
+Iteration   1: 102098287.001 ops/s
+Iteration   2: 99900056.730 ops/s
+Iteration   3: 102410584.296 ops/s
+Iteration   4: 102287111.230 ops/s
+Iteration   5: 102296698.288 ops/s
+Iteration   6: 102529729.307 ops/s
+Iteration   7: 101906329.563 ops/s
+Iteration   8: 102240149.068 ops/s
+Iteration   9: 102375045.509 ops/s
+Iteration  10: 102510250.397 ops/s
+
+
+Result "ant.far.MyBenchmark.searchInTreeSet":
+  102055424.139 ±(99.9%) 1179272.322 ops/s [Average]
+  (min, avg, max) = (99900056.730, 102055424.139, 102529729.307), stdev = 780015.625
+  CI (99.9%): [100876151.817, 103234696.461] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ant.far.MyBenchmark.sortHashSet
+
+# Run progress: 22.22% complete, ETA 01:45:47
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 67983360.796 ops/s
+# Warmup Iteration   2: 68310863.334 ops/s
+# Warmup Iteration   3: 68212564.434 ops/s
+# Warmup Iteration   4: 65857826.776 ops/s
+# Warmup Iteration   5: 67583626.761 ops/s
+Iteration   1: 66475698.156 ops/s
+Iteration   2: 67704451.079 ops/s
+Iteration   3: 68105800.679 ops/s
+Iteration   4: 68083624.534 ops/s
+Iteration   5: 68265654.937 ops/s
+Iteration   6: 67101874.519 ops/s
+Iteration   7: 68445249.646 ops/s
+Iteration   8: 68237157.994 ops/s
+Iteration   9: 68154766.074 ops/s
+Iteration  10: 67199771.756 ops/s
+
+# Run progress: 24.07% complete, ETA 01:43:14
+# Fork: 1 of 1
+# Warmup Iteration   1: 67518487.779 ops/s
+# Warmup Iteration   2: 68426627.429 ops/s
+# Warmup Iteration   3: 65912847.160 ops/s
+# Warmup Iteration   4: 65601191.389 ops/s
+# Warmup Iteration   5: 67400921.673 ops/s
+Iteration   1: 68030490.874 ops/s
+Iteration   2: 68161599.923 ops/s
+Iteration   3: 65635518.172 ops/s
+Iteration   4: 68313985.039 ops/s
+Iteration   5: 68286937.753 ops/s
+Iteration   6: 67710370.831 ops/s
+Iteration   7: 68467370.519 ops/s
+Iteration   8: 68572230.921 ops/s
+Iteration   9: 65784950.823 ops/s
+Iteration  10: 67819732.570 ops/s
+
+
+Result "ant.far.MyBenchmark.sortHashSet":
+  67678318.742 ±(99.9%) 1619927.476 ops/s [Average]
+  (min, avg, max) = (65635518.172, 67678318.742, 68572230.921), stdev = 1071481.726
+  CI (99.9%): [66058391.266, 69298246.218] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ant.far.MyBenchmark.sortLinkedHashSet
+
+# Run progress: 25.93% complete, ETA 01:40:41
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 64722240.078 ops/s
+# Warmup Iteration   2: 65225686.392 ops/s
+# Warmup Iteration   3: 67163341.688 ops/s
+# Warmup Iteration   4: 69399886.348 ops/s
+# Warmup Iteration   5: 70240041.429 ops/s
+Iteration   1: 70197700.621 ops/s
+Iteration   2: 71347461.716 ops/s
+Iteration   3: 70915598.102 ops/s
+Iteration   4: 71603751.263 ops/s
+Iteration   5: 70885354.561 ops/s
+Iteration   6: 70585008.084 ops/s
+Iteration   7: 70028782.871 ops/s
+Iteration   8: 68760890.464 ops/s
+Iteration   9: 69039490.038 ops/s
+Iteration  10: 69657818.019 ops/s
+
+# Run progress: 27.78% complete, ETA 01:38:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 64162179.128 ops/s
+# Warmup Iteration   2: 64778715.380 ops/s
+# Warmup Iteration   3: 71027616.660 ops/s
+# Warmup Iteration   4: 70468688.147 ops/s
+# Warmup Iteration   5: 69571917.499 ops/s
+Iteration   1: 69285535.989 ops/s
+Iteration   2: 69602619.238 ops/s
+Iteration   3: 70089438.042 ops/s
+Iteration   4: 69806005.406 ops/s
+Iteration   5: 70496401.340 ops/s
+Iteration   6: 68784733.166 ops/s
+Iteration   7: 68939765.729 ops/s
+Iteration   8: 68983219.761 ops/s
+Iteration   9: 69459960.405 ops/s
+Iteration  10: 69856665.190 ops/s
+
+
+Result "ant.far.MyBenchmark.sortLinkedHashSet":
+  69530434.427 ±(99.9%) 828461.516 ops/s [Average]
+  (min, avg, max) = (68784733.166, 69530434.427, 70496401.340), stdev = 547975.998
+  CI (99.9%): [68701972.911, 70358895.942] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ant.far.MyBenchmark.sortTreeSet
+
+# Run progress: 29.63% complete, ETA 01:35:36
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 2874244234.514 ops/s
+# Warmup Iteration   2: 2852820725.294 ops/s
+# Warmup Iteration   3: 2767801401.262 ops/s
+# Warmup Iteration   4: 2818093889.567 ops/s
+# Warmup Iteration   5: 2854852833.168 ops/s
+Iteration   1: 2859954055.255 ops/s
+Iteration   2: 2843492262.098 ops/s
+Iteration   3: 2926245819.075 ops/s
+Iteration   4: 2963968434.199 ops/s
+Iteration   5: 2964762504.614 ops/s
+Iteration   6: 2946932061.375 ops/s
+Iteration   7: 2989585866.300 ops/s
+Iteration   8: 2988669305.144 ops/s
+Iteration   9: 2965887541.753 ops/s
+Iteration  10: 2955902138.393 ops/s
+
+# Run progress: 31.48% complete, ETA 01:33:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 2977341270.258 ops/s
+# Warmup Iteration   2: 2977655053.084 ops/s
+# Warmup Iteration   3: 2948022530.143 ops/s
+# Warmup Iteration   4: 2956604621.594 ops/s
+# Warmup Iteration   5: 2960051977.687 ops/s
+Iteration   1: 2968264791.454 ops/s
+Iteration   2: 2934320659.252 ops/s
+Iteration   3: 2933316570.581 ops/s
+Iteration   4: 2916979008.837 ops/s
+Iteration   5: 2847582392.350 ops/s
+Iteration   6: 2898150982.139 ops/s
+Iteration   7: 2904310178.262 ops/s
+Iteration   8: 2901485402.807 ops/s
+Iteration   9: 2913104232.514 ops/s
+Iteration  10: 2886053821.825 ops/s
+
+
+Result "ant.far.MyBenchmark.sortTreeSet":
+  2910356804.002 ±(99.9%) 48603753.822 ops/s [Average]
+  (min, avg, max) = (2847582392.350, 2910356804.002, 2968264791.454), stdev = 32148373.799
+  CI (99.9%): [2861753050.180, 2958960557.824] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ant.far.MyBenchmark.insertIntoHashSet
+
+# Run progress: 33.33% complete, ETA 01:30:32
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.095 s/op
+# Warmup Iteration   2: 0.091 s/op
+# Warmup Iteration   3: 0.089 s/op
+# Warmup Iteration   4: 0.089 s/op
+# Warmup Iteration   5: 0.091 s/op
+Iteration   1: 0.091 s/op
+Iteration   2: 0.091 s/op
+Iteration   3: 0.092 s/op
+Iteration   4: 0.090 s/op
+Iteration   5: 0.091 s/op
+Iteration   6: 0.094 s/op
+Iteration   7: 0.105 s/op
+Iteration   8: 0.097 s/op
+Iteration   9: 0.095 s/op
+Iteration  10: 0.093 s/op
+
+# Run progress: 35.18% complete, ETA 01:28:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.103 s/op
+# Warmup Iteration   2: 0.094 s/op
+# Warmup Iteration   3: 0.092 s/op
+# Warmup Iteration   4: 0.092 s/op
+# Warmup Iteration   5: 0.089 s/op
+Iteration   1: 0.091 s/op
+Iteration   2: 0.089 s/op
+Iteration   3: 0.091 s/op
+Iteration   4: 0.088 s/op
+Iteration   5: 0.089 s/op
+Iteration   6: 0.091 s/op
+Iteration   7: 0.091 s/op
+Iteration   8: 0.090 s/op
+Iteration   9: 0.089 s/op
+Iteration  10: 0.091 s/op
+
+
+Result "ant.far.MyBenchmark.insertIntoHashSet":
+  0.090 ±(99.9%) 0.002 s/op [Average]
+  (min, avg, max) = (0.088, 0.090, 0.091), stdev = 0.001
+  CI (99.9%): [0.089, 0.092] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ant.far.MyBenchmark.insertIntoLinkedHashSet
+
+# Run progress: 37.04% complete, ETA 01:25:30
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.106 s/op
+# Warmup Iteration   2: 0.095 s/op
+# Warmup Iteration   3: 0.097 s/op
+# Warmup Iteration   4: 0.095 s/op
+# Warmup Iteration   5: 0.094 s/op
+Iteration   1: 0.098 s/op
+Iteration   2: 0.113 s/op
+Iteration   3: 0.095 s/op
+Iteration   4: 0.096 s/op
+Iteration   5: 0.096 s/op
+Iteration   6: 0.096 s/op
+Iteration   7: 0.096 s/op
+Iteration   8: 0.095 s/op
+Iteration   9: 0.095 s/op
+Iteration  10: 0.095 s/op
+
+# Run progress: 38.89% complete, ETA 01:23:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.105 s/op
+# Warmup Iteration   2: 0.095 s/op
+# Warmup Iteration   3: 0.095 s/op
+# Warmup Iteration   4: 0.101 s/op
+# Warmup Iteration   5: 0.100 s/op
+Iteration   1: 0.100 s/op
+Iteration   2: 0.107 s/op
+Iteration   3: 0.102 s/op
+Iteration   4: 0.093 s/op
+Iteration   5: 0.099 s/op
+Iteration   6: 0.100 s/op
+Iteration   7: 0.101 s/op
+Iteration   8: 0.101 s/op
+Iteration   9: 0.096 s/op
+Iteration  10: 0.094 s/op
+
+
+Result "ant.far.MyBenchmark.insertIntoLinkedHashSet":
+  0.099 ±(99.9%) 0.006 s/op [Average]
+  (min, avg, max) = (0.093, 0.099, 0.107), stdev = 0.004
+  CI (99.9%): [0.093, 0.105] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ant.far.MyBenchmark.insertIntoTreeSet
+
+# Run progress: 40.74% complete, ETA 01:20:29
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.441 s/op
+# Warmup Iteration   2: 0.442 s/op
+# Warmup Iteration   3: 0.438 s/op
+# Warmup Iteration   4: 0.431 s/op
+# Warmup Iteration   5: 0.432 s/op
+Iteration   1: 0.434 s/op
+Iteration   2: 0.434 s/op
+Iteration   3: 0.434 s/op
+Iteration   4: 0.435 s/op
+Iteration   5: 0.431 s/op
+Iteration   6: 0.433 s/op
+Iteration   7: 0.436 s/op
+Iteration   8: 0.448 s/op
+Iteration   9: 0.442 s/op
+Iteration  10: 0.445 s/op
+
+# Run progress: 42.59% complete, ETA 01:18:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.454 s/op
+# Warmup Iteration   2: 0.450 s/op
+# Warmup Iteration   3: 0.434 s/op
+# Warmup Iteration   4: 0.425 s/op
+# Warmup Iteration   5: 0.436 s/op
+Iteration   1: 0.444 s/op
+Iteration   2: 0.441 s/op
+Iteration   3: 0.436 s/op
+Iteration   4: 0.444 s/op
+Iteration   5: 0.447 s/op
+Iteration   6: 0.442 s/op
+Iteration   7: 0.442 s/op
+Iteration   8: 0.442 s/op
+Iteration   9: 0.436 s/op
+Iteration  10: 0.458 s/op
+
+
+Result "ant.far.MyBenchmark.insertIntoTreeSet":
+  0.443 ±(99.9%) 0.009 s/op [Average]
+  (min, avg, max) = (0.436, 0.443, 0.458), stdev = 0.006
+  CI (99.9%): [0.434, 0.453] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ant.far.MyBenchmark.searchInHashSet
+
+# Run progress: 44.44% complete, ETA 01:15:35
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+Iteration   2: ≈ 10⁻⁸ s/op
+Iteration   3: ≈ 10⁻⁸ s/op
+Iteration   4: ≈ 10⁻⁸ s/op
+Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   6: ≈ 10⁻⁸ s/op
+Iteration   7: ≈ 10⁻⁸ s/op
+Iteration   8: ≈ 10⁻⁸ s/op
+Iteration   9: ≈ 10⁻⁸ s/op
+Iteration  10: ≈ 10⁻⁸ s/op
+
+# Run progress: 46.29% complete, ETA 01:13:02
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+Iteration   2: ≈ 10⁻⁸ s/op
+Iteration   3: ≈ 10⁻⁸ s/op
+Iteration   4: ≈ 10⁻⁸ s/op
+Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   6: ≈ 10⁻⁸ s/op
+Iteration   7: ≈ 10⁻⁸ s/op
+Iteration   8: ≈ 10⁻⁸ s/op
+Iteration   9: ≈ 10⁻⁸ s/op
+Iteration  10: ≈ 10⁻⁸ s/op
+
+
+Result "ant.far.MyBenchmark.searchInHashSet":
+  ≈ 10⁻⁸ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ant.far.MyBenchmark.searchInLinkedHashSet
+
+# Run progress: 48.15% complete, ETA 01:10:30
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+Iteration   2: ≈ 10⁻⁸ s/op
+Iteration   3: ≈ 10⁻⁸ s/op
+Iteration   4: ≈ 10⁻⁸ s/op
+Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   6: ≈ 10⁻⁸ s/op
+Iteration   7: ≈ 10⁻⁸ s/op
+Iteration   8: ≈ 10⁻⁸ s/op
+Iteration   9: ≈ 10⁻⁸ s/op
+Iteration  10: ≈ 10⁻⁸ s/op
+
+# Run progress: 50.00% complete, ETA 01:07:59
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+Iteration   2: ≈ 10⁻⁸ s/op
+Iteration   3: ≈ 10⁻⁸ s/op
+Iteration   4: ≈ 10⁻⁸ s/op
+Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   6: ≈ 10⁻⁸ s/op
+Iteration   7: ≈ 10⁻⁸ s/op
+Iteration   8: ≈ 10⁻⁸ s/op
+Iteration   9: ≈ 10⁻⁸ s/op
+Iteration  10: ≈ 10⁻⁸ s/op
+
+
+Result "ant.far.MyBenchmark.searchInLinkedHashSet":
+  ≈ 10⁻⁸ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ant.far.MyBenchmark.searchInTreeSet
+
+# Run progress: 51.85% complete, ETA 01:05:27
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+Iteration   2: ≈ 10⁻⁸ s/op
+Iteration   3: ≈ 10⁻⁸ s/op
+Iteration   4: ≈ 10⁻⁸ s/op
+Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   6: ≈ 10⁻⁸ s/op
+Iteration   7: ≈ 10⁻⁸ s/op
+Iteration   8: ≈ 10⁻⁸ s/op
+Iteration   9: ≈ 10⁻⁸ s/op
+Iteration  10: ≈ 10⁻⁸ s/op
+
+# Run progress: 53.70% complete, ETA 01:02:55
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+Iteration   2: ≈ 10⁻⁸ s/op
+Iteration   3: ≈ 10⁻⁸ s/op
+Iteration   4: ≈ 10⁻⁸ s/op
+Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   6: ≈ 10⁻⁸ s/op
+Iteration   7: ≈ 10⁻⁸ s/op
+Iteration   8: ≈ 10⁻⁸ s/op
+Iteration   9: ≈ 10⁻⁸ s/op
+Iteration  10: ≈ 10⁻⁸ s/op
+
+
+Result "ant.far.MyBenchmark.searchInTreeSet":
+  ≈ 10⁻⁸ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ant.far.MyBenchmark.sortHashSet
+
+# Run progress: 55.55% complete, ETA 01:00:24
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+Iteration   2: ≈ 10⁻⁸ s/op
+Iteration   3: ≈ 10⁻⁸ s/op
+Iteration   4: ≈ 10⁻⁸ s/op
+Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   6: ≈ 10⁻⁸ s/op
+Iteration   7: ≈ 10⁻⁸ s/op
+Iteration   8: ≈ 10⁻⁸ s/op
+Iteration   9: ≈ 10⁻⁸ s/op
+Iteration  10: ≈ 10⁻⁸ s/op
+
+# Run progress: 57.41% complete, ETA 00:57:52
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+Iteration   2: ≈ 10⁻⁸ s/op
+Iteration   3: ≈ 10⁻⁸ s/op
+Iteration   4: ≈ 10⁻⁸ s/op
+Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   6: ≈ 10⁻⁸ s/op
+Iteration   7: ≈ 10⁻⁸ s/op
+Iteration   8: ≈ 10⁻⁸ s/op
+Iteration   9: ≈ 10⁻⁸ s/op
+Iteration  10: ≈ 10⁻⁸ s/op
+
+
+Result "ant.far.MyBenchmark.sortHashSet":
+  ≈ 10⁻⁸ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ant.far.MyBenchmark.sortLinkedHashSet
+
+# Run progress: 59.26% complete, ETA 00:55:21
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+Iteration   2: ≈ 10⁻⁸ s/op
+Iteration   3: ≈ 10⁻⁸ s/op
+Iteration   4: ≈ 10⁻⁸ s/op
+Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   6: ≈ 10⁻⁸ s/op
+Iteration   7: ≈ 10⁻⁸ s/op
+Iteration   8: ≈ 10⁻⁸ s/op
+Iteration   9: ≈ 10⁻⁸ s/op
+Iteration  10: ≈ 10⁻⁸ s/op
+
+# Run progress: 61.11% complete, ETA 00:52:50
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+Iteration   2: ≈ 10⁻⁸ s/op
+Iteration   3: ≈ 10⁻⁸ s/op
+Iteration   4: ≈ 10⁻⁸ s/op
+Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   6: ≈ 10⁻⁸ s/op
+Iteration   7: ≈ 10⁻⁸ s/op
+Iteration   8: ≈ 10⁻⁸ s/op
+Iteration   9: ≈ 10⁻⁸ s/op
+Iteration  10: ≈ 10⁻⁸ s/op
+
+
+Result "ant.far.MyBenchmark.sortLinkedHashSet":
+  ≈ 10⁻⁸ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ant.far.MyBenchmark.sortTreeSet
+
+# Run progress: 62.96% complete, ETA 00:50:18
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁹ s/op
+# Warmup Iteration   2: ≈ 10⁻⁹ s/op
+# Warmup Iteration   3: ≈ 10⁻⁹ s/op
+# Warmup Iteration   4: ≈ 10⁻⁹ s/op
+# Warmup Iteration   5: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   4: ≈ 10⁻⁹ s/op
+Iteration   5: ≈ 10⁻⁹ s/op
+Iteration   6: ≈ 10⁻⁹ s/op
+Iteration   7: ≈ 10⁻⁹ s/op
+Iteration   8: ≈ 10⁻⁹ s/op
+Iteration   9: ≈ 10⁻⁹ s/op
+Iteration  10: ≈ 10⁻⁹ s/op
+
+# Run progress: 64.81% complete, ETA 00:47:47
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁹ s/op
+# Warmup Iteration   2: ≈ 10⁻⁹ s/op
+# Warmup Iteration   3: ≈ 10⁻⁹ s/op
+# Warmup Iteration   4: ≈ 10⁻⁹ s/op
+# Warmup Iteration   5: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   4: ≈ 10⁻⁹ s/op
+Iteration   5: ≈ 10⁻⁹ s/op
+Iteration   6: ≈ 10⁻⁹ s/op
+Iteration   7: ≈ 10⁻⁹ s/op
+Iteration   8: ≈ 10⁻⁹ s/op
+Iteration   9: ≈ 10⁻⁹ s/op
+Iteration  10: ≈ 10⁻⁹ s/op
+
+
+Result "ant.far.MyBenchmark.sortTreeSet":
+  ≈ 10⁻⁹ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: ant.far.MyBenchmark.insertIntoHashSet
+
+# Run progress: 66.66% complete, ETA 00:45:16
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.084 ±(99.9%) 0.002 s/op
+# Warmup Iteration   2: 0.080 ±(99.9%) 0.002 s/op
+# Warmup Iteration   3: 0.080 ±(99.9%) 0.002 s/op
+# Warmup Iteration   4: 0.080 ±(99.9%) 0.001 s/op
+# Warmup Iteration   5: 0.080 ±(99.9%) 0.001 s/op
+Iteration   1: 0.074 ±(99.9%) 0.002 s/op
+                 insertIntoHashSet·p0.00:   0.069 s/op
+                 insertIntoHashSet·p0.50:   0.071 s/op
+                 insertIntoHashSet·p0.90:   0.086 s/op
+                 insertIntoHashSet·p0.95:   0.090 s/op
+                 insertIntoHashSet·p0.99:   0.097 s/op
+                 insertIntoHashSet·p0.999:  0.098 s/op
+                 insertIntoHashSet·p0.9999: 0.098 s/op
+                 insertIntoHashSet·p1.00:   0.098 s/op
+
+Iteration   2: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.075 s/op
+                 insertIntoHashSet·p0.95:   0.076 s/op
+                 insertIntoHashSet·p0.99:   0.088 s/op
+                 insertIntoHashSet·p0.999:  0.090 s/op
+                 insertIntoHashSet·p0.9999: 0.090 s/op
+                 insertIntoHashSet·p1.00:   0.090 s/op
+
+Iteration   3: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.073 s/op
+                 insertIntoHashSet·p0.95:   0.077 s/op
+                 insertIntoHashSet·p0.99:   0.086 s/op
+                 insertIntoHashSet·p0.999:  0.087 s/op
+                 insertIntoHashSet·p0.9999: 0.087 s/op
+                 insertIntoHashSet·p1.00:   0.087 s/op
+
+Iteration   4: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.075 s/op
+                 insertIntoHashSet·p0.95:   0.079 s/op
+                 insertIntoHashSet·p0.99:   0.086 s/op
+                 insertIntoHashSet·p0.999:  0.088 s/op
+                 insertIntoHashSet·p0.9999: 0.088 s/op
+                 insertIntoHashSet·p1.00:   0.088 s/op
+
+Iteration   5: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.075 s/op
+                 insertIntoHashSet·p0.95:   0.078 s/op
+                 insertIntoHashSet·p0.99:   0.083 s/op
+                 insertIntoHashSet·p0.999:  0.083 s/op
+                 insertIntoHashSet·p0.9999: 0.083 s/op
+                 insertIntoHashSet·p1.00:   0.083 s/op
+
+Iteration   6: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.074 s/op
+                 insertIntoHashSet·p0.95:   0.076 s/op
+                 insertIntoHashSet·p0.99:   0.086 s/op
+                 insertIntoHashSet·p0.999:  0.086 s/op
+                 insertIntoHashSet·p0.9999: 0.086 s/op
+                 insertIntoHashSet·p1.00:   0.086 s/op
+
+Iteration   7: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.074 s/op
+                 insertIntoHashSet·p0.95:   0.076 s/op
+                 insertIntoHashSet·p0.99:   0.103 s/op
+                 insertIntoHashSet·p0.999:  0.114 s/op
+                 insertIntoHashSet·p0.9999: 0.114 s/op
+                 insertIntoHashSet·p1.00:   0.114 s/op
+
+Iteration   8: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.074 s/op
+                 insertIntoHashSet·p0.95:   0.076 s/op
+                 insertIntoHashSet·p0.99:   0.089 s/op
+                 insertIntoHashSet·p0.999:  0.093 s/op
+                 insertIntoHashSet·p0.9999: 0.093 s/op
+                 insertIntoHashSet·p1.00:   0.093 s/op
+
+Iteration   9: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.074 s/op
+                 insertIntoHashSet·p0.95:   0.078 s/op
+                 insertIntoHashSet·p0.99:   0.102 s/op
+                 insertIntoHashSet·p0.999:  0.108 s/op
+                 insertIntoHashSet·p0.9999: 0.108 s/op
+                 insertIntoHashSet·p1.00:   0.108 s/op
+
+Iteration  10: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.074 s/op
+                 insertIntoHashSet·p0.95:   0.077 s/op
+                 insertIntoHashSet·p0.99:   0.085 s/op
+                 insertIntoHashSet·p0.999:  0.086 s/op
+                 insertIntoHashSet·p0.9999: 0.086 s/op
+                 insertIntoHashSet·p1.00:   0.086 s/op
+
+
+# Run progress: 68.52% complete, ETA 00:42:45
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.073 ±(99.9%) 0.002 s/op
+# Warmup Iteration   2: 0.070 ±(99.9%) 0.001 s/op
+# Warmup Iteration   3: 0.070 ±(99.9%) 0.001 s/op
+# Warmup Iteration   4: 0.070 ±(99.9%) 0.001 s/op
+# Warmup Iteration   5: 0.070 ±(99.9%) 0.001 s/op
+Iteration   1: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.074 s/op
+                 insertIntoHashSet·p0.95:   0.077 s/op
+                 insertIntoHashSet·p0.99:   0.085 s/op
+                 insertIntoHashSet·p0.999:  0.085 s/op
+                 insertIntoHashSet·p0.9999: 0.085 s/op
+                 insertIntoHashSet·p1.00:   0.085 s/op
+
+Iteration   2: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.075 s/op
+                 insertIntoHashSet·p0.95:   0.077 s/op
+                 insertIntoHashSet·p0.99:   0.083 s/op
+                 insertIntoHashSet·p0.999:  0.084 s/op
+                 insertIntoHashSet·p0.9999: 0.084 s/op
+                 insertIntoHashSet·p1.00:   0.084 s/op
+
+Iteration   3: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.073 s/op
+                 insertIntoHashSet·p0.95:   0.076 s/op
+                 insertIntoHashSet·p0.99:   0.085 s/op
+                 insertIntoHashSet·p0.999:  0.086 s/op
+                 insertIntoHashSet·p0.9999: 0.086 s/op
+                 insertIntoHashSet·p1.00:   0.086 s/op
+
+Iteration   4: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.075 s/op
+                 insertIntoHashSet·p0.95:   0.078 s/op
+                 insertIntoHashSet·p0.99:   0.085 s/op
+                 insertIntoHashSet·p0.999:  0.086 s/op
+                 insertIntoHashSet·p0.9999: 0.086 s/op
+                 insertIntoHashSet·p1.00:   0.086 s/op
+
+Iteration   5: 0.071 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.076 s/op
+                 insertIntoHashSet·p0.95:   0.078 s/op
+                 insertIntoHashSet·p0.99:   0.092 s/op
+                 insertIntoHashSet·p0.999:  0.096 s/op
+                 insertIntoHashSet·p0.9999: 0.096 s/op
+                 insertIntoHashSet·p1.00:   0.096 s/op
+
+Iteration   6: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.076 s/op
+                 insertIntoHashSet·p0.95:   0.080 s/op
+                 insertIntoHashSet·p0.99:   0.097 s/op
+                 insertIntoHashSet·p0.999:  0.105 s/op
+                 insertIntoHashSet·p0.9999: 0.105 s/op
+                 insertIntoHashSet·p1.00:   0.105 s/op
+
+Iteration   7: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.072 s/op
+                 insertIntoHashSet·p0.95:   0.076 s/op
+                 insertIntoHashSet·p0.99:   0.086 s/op
+                 insertIntoHashSet·p0.999:  0.086 s/op
+                 insertIntoHashSet·p0.9999: 0.086 s/op
+                 insertIntoHashSet·p1.00:   0.086 s/op
+
+Iteration   8: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.074 s/op
+                 insertIntoHashSet·p0.95:   0.077 s/op
+                 insertIntoHashSet·p0.99:   0.084 s/op
+                 insertIntoHashSet·p0.999:  0.085 s/op
+                 insertIntoHashSet·p0.9999: 0.085 s/op
+                 insertIntoHashSet·p1.00:   0.085 s/op
+
+Iteration   9: 0.070 ±(99.9%) 0.001 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.069 s/op
+                 insertIntoHashSet·p0.90:   0.073 s/op
+                 insertIntoHashSet·p0.95:   0.078 s/op
+                 insertIntoHashSet·p0.99:   0.086 s/op
+                 insertIntoHashSet·p0.999:  0.086 s/op
+                 insertIntoHashSet·p0.9999: 0.086 s/op
+                 insertIntoHashSet·p1.00:   0.086 s/op
+
+Iteration  10: 0.096 ±(99.9%) 0.005 s/op
+                 insertIntoHashSet·p0.00:   0.068 s/op
+                 insertIntoHashSet·p0.50:   0.096 s/op
+                 insertIntoHashSet·p0.90:   0.118 s/op
+                 insertIntoHashSet·p0.95:   0.127 s/op
+                 insertIntoHashSet·p0.99:   0.137 s/op
+                 insertIntoHashSet·p0.999:  0.137 s/op
+                 insertIntoHashSet·p0.9999: 0.137 s/op
+                 insertIntoHashSet·p1.00:   0.137 s/op
+
+
+
+Result "ant.far.MyBenchmark.insertIntoHashSet":
+  N = 1392
+  mean =      0.072 ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.060, 0.065) = 0 
+    [0.065, 0.070) = 974 
+    [0.070, 0.075) = 199 
+    [0.075, 0.080) = 86 
+    [0.080, 0.085) = 45 
+    [0.085, 0.090) = 24 
+    [0.090, 0.095) = 6 
+    [0.095, 0.100) = 20 
+    [0.100, 0.105) = 15 
+    [0.105, 0.110) = 6 
+    [0.110, 0.115) = 4 
+    [0.115, 0.120) = 6 
+    [0.120, 0.125) = 1 
+    [0.125, 0.130) = 2 
+    [0.130, 0.135) = 1 
+    [0.135, 0.140) = 3 
+
+  Percentiles, s/op:
+      p(0.0000) =      0.068 s/op
+     p(50.0000) =      0.069 s/op
+     p(90.0000) =      0.079 s/op
+     p(95.0000) =      0.089 s/op
+     p(99.0000) =      0.113 s/op
+     p(99.9000) =      0.137 s/op
+     p(99.9900) =      0.137 s/op
+     p(99.9990) =      0.137 s/op
+     p(99.9999) =      0.137 s/op
+    p(100.0000) =      0.137 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: ant.far.MyBenchmark.insertIntoLinkedHashSet
+
+# Run progress: 70.37% complete, ETA 00:40:14
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.118 ±(99.9%) 0.006 s/op
+# Warmup Iteration   2: 0.091 ±(99.9%) 0.007 s/op
+# Warmup Iteration   3: 0.103 ±(99.9%) 0.009 s/op
+# Warmup Iteration   4: 0.078 ±(99.9%) 0.003 s/op
+# Warmup Iteration   5: 0.076 ±(99.9%) 0.002 s/op
+Iteration   1: 0.074 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.073 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.077 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.082 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.088 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.088 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.088 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.088 s/op
+
+Iteration   2: 0.074 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.073 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.078 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.082 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.089 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.089 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.089 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.089 s/op
+
+Iteration   3: 0.074 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.073 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.080 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.082 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.088 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.088 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.088 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.088 s/op
+
+Iteration   4: 0.074 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.073 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.077 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.082 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.090 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.090 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.090 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.090 s/op
+
+Iteration   5: 0.075 ±(99.9%) 0.002 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.073 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.083 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.087 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.103 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.106 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.106 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.106 s/op
+
+Iteration   6: 0.074 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.073 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.078 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.081 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.087 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.087 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.087 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.087 s/op
+
+Iteration   7: 0.075 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.073 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.079 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.082 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.091 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.091 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.091 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.091 s/op
+
+Iteration   8: 0.074 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.073 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.078 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.081 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.089 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.089 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.089 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.089 s/op
+
+Iteration   9: 0.075 ±(99.9%) 0.003 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.073 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.079 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.086 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.154 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.167 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.167 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.167 s/op
+
+Iteration  10: 0.075 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.073 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.081 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.083 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.089 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.089 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.089 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.089 s/op
+
+
+# Run progress: 72.22% complete, ETA 00:37:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.083 ±(99.9%) 0.003 s/op
+# Warmup Iteration   2: 0.073 ±(99.9%) 0.001 s/op
+# Warmup Iteration   3: 0.074 ±(99.9%) 0.001 s/op
+# Warmup Iteration   4: 0.073 ±(99.9%) 0.001 s/op
+# Warmup Iteration   5: 0.074 ±(99.9%) 0.001 s/op
+Iteration   1: 0.074 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.071 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.078 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.082 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.088 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.089 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.089 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.089 s/op
+
+Iteration   2: 0.074 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.071 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.076 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.081 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.089 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.090 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.090 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.090 s/op
+
+Iteration   3: 0.073 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.071 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.076 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.081 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.090 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.091 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.091 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.091 s/op
+
+Iteration   4: 0.074 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.071 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.077 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.082 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.097 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.102 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.102 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.102 s/op
+
+Iteration   5: 0.074 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.071 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.073 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.080 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.086 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.097 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.098 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.098 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.098 s/op
+
+Iteration   6: 0.074 ±(99.9%) 0.002 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.071 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.080 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.085 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.128 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.128 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.128 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.128 s/op
+
+Iteration   7: 0.074 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.071 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.077 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.083 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.093 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.096 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.096 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.096 s/op
+
+Iteration   8: 0.073 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.071 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.075 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.082 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.089 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.090 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.090 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.090 s/op
+
+Iteration   9: 0.073 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.071 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.072 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.077 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.081 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.088 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.088 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.088 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.088 s/op
+
+Iteration  10: 0.074 ±(99.9%) 0.001 s/op
+                 insertIntoLinkedHashSet·p0.00:   0.071 s/op
+                 insertIntoLinkedHashSet·p0.50:   0.073 s/op
+                 insertIntoLinkedHashSet·p0.90:   0.077 s/op
+                 insertIntoLinkedHashSet·p0.95:   0.081 s/op
+                 insertIntoLinkedHashSet·p0.99:   0.088 s/op
+                 insertIntoLinkedHashSet·p0.999:  0.088 s/op
+                 insertIntoLinkedHashSet·p0.9999: 0.088 s/op
+                 insertIntoLinkedHashSet·p1.00:   0.088 s/op
+
+
+
+Result "ant.far.MyBenchmark.insertIntoLinkedHashSet":
+  N = 1362
+  mean =      0.074 ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.070, 0.075) = 1175 
+    [0.075, 0.080) = 78 
+    [0.080, 0.085) = 68 
+    [0.085, 0.090) = 32 
+    [0.090, 0.095) = 3 
+    [0.095, 0.100) = 3 
+    [0.100, 0.105) = 1 
+    [0.105, 0.110) = 0 
+    [0.110, 0.115) = 0 
+    [0.115, 0.120) = 0 
+    [0.120, 0.125) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =      0.071 s/op
+     p(50.0000) =      0.072 s/op
+     p(90.0000) =      0.077 s/op
+     p(95.0000) =      0.082 s/op
+     p(99.0000) =      0.089 s/op
+     p(99.9000) =      0.128 s/op
+     p(99.9900) =      0.128 s/op
+     p(99.9990) =      0.128 s/op
+     p(99.9999) =      0.128 s/op
+    p(100.0000) =      0.128 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: ant.far.MyBenchmark.insertIntoTreeSet
+
+# Run progress: 74.07% complete, ETA 00:35:12
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.357 ±(99.9%) 0.012 s/op
+# Warmup Iteration   2: 0.350 ±(99.9%) 0.007 s/op
+# Warmup Iteration   3: 0.341 ±(99.9%) 0.004 s/op
+# Warmup Iteration   4: 0.344 ±(99.9%) 0.009 s/op
+# Warmup Iteration   5: 0.342 ±(99.9%) 0.007 s/op
+Iteration   1: 0.342 ±(99.9%) 0.007 s/op
+                 insertIntoTreeSet·p0.00:   0.333 s/op
+                 insertIntoTreeSet·p0.50:   0.338 s/op
+                 insertIntoTreeSet·p0.90:   0.360 s/op
+                 insertIntoTreeSet·p0.95:   0.369 s/op
+                 insertIntoTreeSet·p0.99:   0.373 s/op
+                 insertIntoTreeSet·p0.999:  0.373 s/op
+                 insertIntoTreeSet·p0.9999: 0.373 s/op
+                 insertIntoTreeSet·p1.00:   0.373 s/op
+
+Iteration   2: 0.342 ±(99.9%) 0.007 s/op
+                 insertIntoTreeSet·p0.00:   0.336 s/op
+                 insertIntoTreeSet·p0.50:   0.338 s/op
+                 insertIntoTreeSet·p0.90:   0.365 s/op
+                 insertIntoTreeSet·p0.95:   0.370 s/op
+                 insertIntoTreeSet·p0.99:   0.371 s/op
+                 insertIntoTreeSet·p0.999:  0.371 s/op
+                 insertIntoTreeSet·p0.9999: 0.371 s/op
+                 insertIntoTreeSet·p1.00:   0.371 s/op
+
+Iteration   3: 0.356 ±(99.9%) 0.023 s/op
+                 insertIntoTreeSet·p0.00:   0.335 s/op
+                 insertIntoTreeSet·p0.50:   0.341 s/op
+                 insertIntoTreeSet·p0.90:   0.402 s/op
+                 insertIntoTreeSet·p0.95:   0.452 s/op
+                 insertIntoTreeSet·p0.99:   0.491 s/op
+                 insertIntoTreeSet·p0.999:  0.491 s/op
+                 insertIntoTreeSet·p0.9999: 0.491 s/op
+                 insertIntoTreeSet·p1.00:   0.491 s/op
+
+Iteration   4: 0.341 ±(99.9%) 0.005 s/op
+                 insertIntoTreeSet·p0.00:   0.335 s/op
+                 insertIntoTreeSet·p0.50:   0.338 s/op
+                 insertIntoTreeSet·p0.90:   0.353 s/op
+                 insertIntoTreeSet·p0.95:   0.359 s/op
+                 insertIntoTreeSet·p0.99:   0.367 s/op
+                 insertIntoTreeSet·p0.999:  0.367 s/op
+                 insertIntoTreeSet·p0.9999: 0.367 s/op
+                 insertIntoTreeSet·p1.00:   0.367 s/op
+
+Iteration   5: 0.341 ±(99.9%) 0.005 s/op
+                 insertIntoTreeSet·p0.00:   0.334 s/op
+                 insertIntoTreeSet·p0.50:   0.338 s/op
+                 insertIntoTreeSet·p0.90:   0.349 s/op
+                 insertIntoTreeSet·p0.95:   0.365 s/op
+                 insertIntoTreeSet·p0.99:   0.365 s/op
+                 insertIntoTreeSet·p0.999:  0.365 s/op
+                 insertIntoTreeSet·p0.9999: 0.365 s/op
+                 insertIntoTreeSet·p1.00:   0.365 s/op
+
+Iteration   6: 0.340 ±(99.9%) 0.005 s/op
+                 insertIntoTreeSet·p0.00:   0.333 s/op
+                 insertIntoTreeSet·p0.50:   0.337 s/op
+                 insertIntoTreeSet·p0.90:   0.358 s/op
+                 insertIntoTreeSet·p0.95:   0.361 s/op
+                 insertIntoTreeSet·p0.99:   0.362 s/op
+                 insertIntoTreeSet·p0.999:  0.362 s/op
+                 insertIntoTreeSet·p0.9999: 0.362 s/op
+                 insertIntoTreeSet·p1.00:   0.362 s/op
+
+Iteration   7: 0.343 ±(99.9%) 0.006 s/op
+                 insertIntoTreeSet·p0.00:   0.333 s/op
+                 insertIntoTreeSet·p0.50:   0.340 s/op
+                 insertIntoTreeSet·p0.90:   0.361 s/op
+                 insertIntoTreeSet·p0.95:   0.368 s/op
+                 insertIntoTreeSet·p0.99:   0.369 s/op
+                 insertIntoTreeSet·p0.999:  0.369 s/op
+                 insertIntoTreeSet·p0.9999: 0.369 s/op
+                 insertIntoTreeSet·p1.00:   0.369 s/op
+
+Iteration   8: 0.384 ±(99.9%) 0.029 s/op
+                 insertIntoTreeSet·p0.00:   0.334 s/op
+                 insertIntoTreeSet·p0.50:   0.392 s/op
+                 insertIntoTreeSet·p0.90:   0.430 s/op
+                 insertIntoTreeSet·p0.95:   0.439 s/op
+                 insertIntoTreeSet·p0.99:   0.441 s/op
+                 insertIntoTreeSet·p0.999:  0.441 s/op
+                 insertIntoTreeSet·p0.9999: 0.441 s/op
+                 insertIntoTreeSet·p1.00:   0.441 s/op
+
+Iteration   9: 0.381 ±(99.9%) 0.021 s/op
+                 insertIntoTreeSet·p0.00:   0.333 s/op
+                 insertIntoTreeSet·p0.50:   0.387 s/op
+                 insertIntoTreeSet·p0.90:   0.419 s/op
+                 insertIntoTreeSet·p0.95:   0.431 s/op
+                 insertIntoTreeSet·p0.99:   0.432 s/op
+                 insertIntoTreeSet·p0.999:  0.432 s/op
+                 insertIntoTreeSet·p0.9999: 0.432 s/op
+                 insertIntoTreeSet·p1.00:   0.432 s/op
+
+Iteration  10: 0.447 ±(99.9%) 0.032 s/op
+                 insertIntoTreeSet·p0.00:   0.370 s/op
+                 insertIntoTreeSet·p0.50:   0.458 s/op
+                 insertIntoTreeSet·p0.90:   0.489 s/op
+                 insertIntoTreeSet·p0.95:   0.528 s/op
+                 insertIntoTreeSet·p0.99:   0.537 s/op
+                 insertIntoTreeSet·p0.999:  0.537 s/op
+                 insertIntoTreeSet·p0.9999: 0.537 s/op
+                 insertIntoTreeSet·p1.00:   0.537 s/op
+
+
+# Run progress: 75.92% complete, ETA 00:32:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.460 ±(99.9%) 0.024 s/op
+# Warmup Iteration   2: 0.454 ±(99.9%) 0.010 s/op
+# Warmup Iteration   3: 0.447 ±(99.9%) 0.010 s/op
+# Warmup Iteration   4: 0.442 ±(99.9%) 0.020 s/op
+# Warmup Iteration   5: 0.378 ±(99.9%) 0.010 s/op
+Iteration   1: 0.378 ±(99.9%) 0.008 s/op
+                 insertIntoTreeSet·p0.00:   0.369 s/op
+                 insertIntoTreeSet·p0.50:   0.372 s/op
+                 insertIntoTreeSet·p0.90:   0.401 s/op
+                 insertIntoTreeSet·p0.95:   0.405 s/op
+                 insertIntoTreeSet·p0.99:   0.408 s/op
+                 insertIntoTreeSet·p0.999:  0.408 s/op
+                 insertIntoTreeSet·p0.9999: 0.408 s/op
+                 insertIntoTreeSet·p1.00:   0.408 s/op
+
+Iteration   2: 0.378 ±(99.9%) 0.005 s/op
+                 insertIntoTreeSet·p0.00:   0.369 s/op
+                 insertIntoTreeSet·p0.50:   0.376 s/op
+                 insertIntoTreeSet·p0.90:   0.391 s/op
+                 insertIntoTreeSet·p0.95:   0.396 s/op
+                 insertIntoTreeSet·p0.99:   0.397 s/op
+                 insertIntoTreeSet·p0.999:  0.397 s/op
+                 insertIntoTreeSet·p0.9999: 0.397 s/op
+                 insertIntoTreeSet·p1.00:   0.397 s/op
+
+Iteration   3: 0.375 ±(99.9%) 0.006 s/op
+                 insertIntoTreeSet·p0.00:   0.367 s/op
+                 insertIntoTreeSet·p0.50:   0.372 s/op
+                 insertIntoTreeSet·p0.90:   0.388 s/op
+                 insertIntoTreeSet·p0.95:   0.401 s/op
+                 insertIntoTreeSet·p0.99:   0.404 s/op
+                 insertIntoTreeSet·p0.999:  0.404 s/op
+                 insertIntoTreeSet·p0.9999: 0.404 s/op
+                 insertIntoTreeSet·p1.00:   0.404 s/op
+
+Iteration   4: 0.380 ±(99.9%) 0.013 s/op
+                 insertIntoTreeSet·p0.00:   0.370 s/op
+                 insertIntoTreeSet·p0.50:   0.373 s/op
+                 insertIntoTreeSet·p0.90:   0.403 s/op
+                 insertIntoTreeSet·p0.95:   0.439 s/op
+                 insertIntoTreeSet·p0.99:   0.452 s/op
+                 insertIntoTreeSet·p0.999:  0.452 s/op
+                 insertIntoTreeSet·p0.9999: 0.452 s/op
+                 insertIntoTreeSet·p1.00:   0.452 s/op
+
+Iteration   5: 0.376 ±(99.9%) 0.008 s/op
+                 insertIntoTreeSet·p0.00:   0.369 s/op
+                 insertIntoTreeSet·p0.50:   0.372 s/op
+                 insertIntoTreeSet·p0.90:   0.392 s/op
+                 insertIntoTreeSet·p0.95:   0.413 s/op
+                 insertIntoTreeSet·p0.99:   0.422 s/op
+                 insertIntoTreeSet·p0.999:  0.422 s/op
+                 insertIntoTreeSet·p0.9999: 0.422 s/op
+                 insertIntoTreeSet·p1.00:   0.422 s/op
+
+Iteration   6: 0.379 ±(99.9%) 0.006 s/op
+                 insertIntoTreeSet·p0.00:   0.368 s/op
+                 insertIntoTreeSet·p0.50:   0.378 s/op
+                 insertIntoTreeSet·p0.90:   0.390 s/op
+                 insertIntoTreeSet·p0.95:   0.401 s/op
+                 insertIntoTreeSet·p0.99:   0.407 s/op
+                 insertIntoTreeSet·p0.999:  0.407 s/op
+                 insertIntoTreeSet·p0.9999: 0.407 s/op
+                 insertIntoTreeSet·p1.00:   0.407 s/op
+
+Iteration   7: 0.375 ±(99.9%) 0.006 s/op
+                 insertIntoTreeSet·p0.00:   0.369 s/op
+                 insertIntoTreeSet·p0.50:   0.372 s/op
+                 insertIntoTreeSet·p0.90:   0.385 s/op
+                 insertIntoTreeSet·p0.95:   0.400 s/op
+                 insertIntoTreeSet·p0.99:   0.402 s/op
+                 insertIntoTreeSet·p0.999:  0.402 s/op
+                 insertIntoTreeSet·p0.9999: 0.402 s/op
+                 insertIntoTreeSet·p1.00:   0.402 s/op
+
+Iteration   8: 0.376 ±(99.9%) 0.008 s/op
+                 insertIntoTreeSet·p0.00:   0.368 s/op
+                 insertIntoTreeSet·p0.50:   0.372 s/op
+                 insertIntoTreeSet·p0.90:   0.388 s/op
+                 insertIntoTreeSet·p0.95:   0.412 s/op
+                 insertIntoTreeSet·p0.99:   0.416 s/op
+                 insertIntoTreeSet·p0.999:  0.416 s/op
+                 insertIntoTreeSet·p0.9999: 0.416 s/op
+                 insertIntoTreeSet·p1.00:   0.416 s/op
+
+Iteration   9: 0.379 ±(99.9%) 0.006 s/op
+                 insertIntoTreeSet·p0.00:   0.370 s/op
+                 insertIntoTreeSet·p0.50:   0.377 s/op
+                 insertIntoTreeSet·p0.90:   0.390 s/op
+                 insertIntoTreeSet·p0.95:   0.398 s/op
+                 insertIntoTreeSet·p0.99:   0.400 s/op
+                 insertIntoTreeSet·p0.999:  0.400 s/op
+                 insertIntoTreeSet·p0.9999: 0.400 s/op
+                 insertIntoTreeSet·p1.00:   0.400 s/op
+
+Iteration  10: 0.379 ±(99.9%) 0.007 s/op
+                 insertIntoTreeSet·p0.00:   0.370 s/op
+                 insertIntoTreeSet·p0.50:   0.376 s/op
+                 insertIntoTreeSet·p0.90:   0.396 s/op
+                 insertIntoTreeSet·p0.95:   0.404 s/op
+                 insertIntoTreeSet·p0.99:   0.407 s/op
+                 insertIntoTreeSet·p0.999:  0.407 s/op
+                 insertIntoTreeSet·p0.9999: 0.407 s/op
+                 insertIntoTreeSet·p1.00:   0.407 s/op
+
+
+
+Result "ant.far.MyBenchmark.insertIntoTreeSet":
+  N = 270
+  mean =      0.377 ±(99.9%) 0.002 s/op
+
+  Histogram, s/op:
+    [0.360, 0.370) = 31 
+    [0.370, 0.380) = 172 
+    [0.380, 0.390) = 38 
+    [0.390, 0.400) = 14 
+    [0.400, 0.410) = 11 
+    [0.410, 0.420) = 2 
+    [0.420, 0.430) = 1 
+    [0.430, 0.440) = 0 
+    [0.440, 0.450) = 0 
+    [0.450, 0.460) = 1 
+
+  Percentiles, s/op:
+      p(0.0000) =      0.367 s/op
+     p(50.0000) =      0.374 s/op
+     p(90.0000) =      0.391 s/op
+     p(95.0000) =      0.401 s/op
+     p(99.0000) =      0.420 s/op
+     p(99.9000) =      0.452 s/op
+     p(99.9900) =      0.452 s/op
+     p(99.9990) =      0.452 s/op
+     p(99.9999) =      0.452 s/op
+    p(100.0000) =      0.452 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: ant.far.MyBenchmark.searchInHashSet
+
+# Run progress: 77.78% complete, ETA 00:30:12
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInHashSet·p1.00:   0.001 s/op
+
+Iteration   2: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   3: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   4: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   5: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   6: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   7: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   8: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁷ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   9: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration  10: ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInHashSet·p1.00:   0.001 s/op
+
+
+# Run progress: 79.63% complete, ETA 00:27:41
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   2: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   3: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   4: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   5: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   6: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   7: ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   8: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   9: ≈ 10⁻⁸ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration  10: ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.00:   ≈ 0 s/op
+                 searchInHashSet·p0.50:   ≈ 0 s/op
+                 searchInHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInHashSet·p1.00:   0.001 s/op
+
+
+
+Result "ant.far.MyBenchmark.searchInHashSet":
+  N = 2540723
+  mean =     ≈ 10⁻⁸ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 2540722 
+    [0.000, 0.000) = 0 
+    [0.000, 0.000) = 0 
+    [0.000, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 1 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.002) = 0 
+    [0.002, 0.002) = 0 
+    [0.002, 0.002) = 0 
+    [0.002, 0.002) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =        ≈ 0 s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁷ s/op
+     p(99.9900) =     ≈ 10⁻⁵ s/op
+     p(99.9990) =     ≈ 10⁻⁵ s/op
+     p(99.9999) =     ≈ 10⁻⁵ s/op
+    p(100.0000) =      0.001 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: ant.far.MyBenchmark.searchInLinkedHashSet
+
+# Run progress: 81.48% complete, ETA 00:25:10
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   2: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   3: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   4: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   5: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   6: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   7: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   8: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   9: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration  10: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+
+# Run progress: 83.33% complete, ETA 00:22:39
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   2: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   0.001 s/op
+
+Iteration   4: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   5: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   6: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   7: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   8: ≈ 10⁻⁸ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   9: ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   0.001 s/op
+
+Iteration  10: ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.00:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.50:   ≈ 0 s/op
+                 searchInLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+
+
+Result "ant.far.MyBenchmark.searchInLinkedHashSet":
+  N = 2554631
+  mean =     ≈ 10⁻⁸ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 2554629 
+    [0.000, 0.000) = 0 
+    [0.000, 0.000) = 0 
+    [0.000, 0.000) = 0 
+    [0.000, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =        ≈ 0 s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁷ s/op
+     p(99.9900) =     ≈ 10⁻⁵ s/op
+     p(99.9990) =     ≈ 10⁻⁵ s/op
+     p(99.9999) =     ≈ 10⁻³ s/op
+    p(100.0000) =      0.001 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: ant.far.MyBenchmark.searchInTreeSet
+
+# Run progress: 85.18% complete, ETA 00:20:08
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+# Warmup Iteration   4: ≈ 10⁻⁷ s/op
+# Warmup Iteration   5: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   2: ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   0.001 s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   4: ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   5: ≈ 10⁻⁸ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   6: ≈ 10⁻⁸ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   7: ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   8: ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   9: ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   0.001 s/op
+
+Iteration  10: ≈ 10⁻⁸ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+
+# Run progress: 87.03% complete, ETA 00:17:37
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   2: ≈ 10⁻⁸ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   3: ≈ 10⁻⁸ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   4: ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   0.003 s/op
+
+Iteration   5: ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   0.001 s/op
+
+Iteration   6: ≈ 10⁻⁸ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   7: ≈ 10⁻⁸ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   8: ≈ 10⁻⁸ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   9: ≈ 10⁻⁸ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration  10: ≈ 10⁻⁸ s/op
+                 searchInTreeSet·p0.00:   ≈ 0 s/op
+                 searchInTreeSet·p0.50:   ≈ 0 s/op
+                 searchInTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 searchInTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 searchInTreeSet·p1.00:   ≈ 10⁻⁴ s/op
+
+
+
+Result "ant.far.MyBenchmark.searchInTreeSet":
+  N = 2552707
+  mean =     ≈ 10⁻⁷ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 2552705 
+    [0.000, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 1 
+    [0.001, 0.002) = 0 
+    [0.002, 0.002) = 0 
+    [0.002, 0.002) = 0 
+    [0.002, 0.002) = 0 
+    [0.002, 0.003) = 0 
+    [0.003, 0.003) = 1 
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =        ≈ 0 s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁷ s/op
+     p(99.9900) =     ≈ 10⁻⁵ s/op
+     p(99.9990) =     ≈ 10⁻⁵ s/op
+     p(99.9999) =     ≈ 10⁻³ s/op
+    p(100.0000) =      0.003 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: ant.far.MyBenchmark.sortHashSet
+
+# Run progress: 88.89% complete, ETA 00:15:06
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+# Warmup Iteration   4: ≈ 10⁻⁷ s/op
+# Warmup Iteration   5: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   2: ≈ 10⁻⁸ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   4: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   5: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   6: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   0.001 s/op
+
+Iteration   7: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   8: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   9: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration  10: ≈ 10⁻⁸ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+
+# Run progress: 90.74% complete, ETA 00:12:35
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+# Warmup Iteration   4: ≈ 10⁻⁷ s/op
+# Warmup Iteration   5: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   2: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   4: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   5: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   6: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   7: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   8: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   0.001 s/op
+
+Iteration   9: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration  10: ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.00:   ≈ 0 s/op
+                 sortHashSet·p0.50:   ≈ 0 s/op
+                 sortHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+
+
+Result "ant.far.MyBenchmark.sortHashSet":
+  N = 3079890
+  mean =     ≈ 10⁻⁷ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 3079889 
+    [0.000, 0.000) = 0 
+    [0.000, 0.000) = 0 
+    [0.000, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 1 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.002) = 0 
+    [0.002, 0.002) = 0 
+    [0.002, 0.002) = 0 
+    [0.002, 0.002) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =        ≈ 0 s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁵ s/op
+     p(99.9990) =     ≈ 10⁻⁵ s/op
+     p(99.9999) =     ≈ 10⁻⁵ s/op
+    p(100.0000) =      0.001 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: ant.far.MyBenchmark.sortLinkedHashSet
+
+# Run progress: 92.59% complete, ETA 00:10:04
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+# Warmup Iteration   4: ≈ 10⁻⁷ s/op
+# Warmup Iteration   5: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortLinkedHashSet·p1.00:   0.001 s/op
+
+Iteration   2: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   4: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   5: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   6: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p1.00:   0.001 s/op
+
+Iteration   7: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p1.00:   0.002 s/op
+
+Iteration   8: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   9: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p1.00:   0.001 s/op
+
+Iteration  10: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p1.00:   0.001 s/op
+
+
+# Run progress: 94.44% complete, ETA 00:07:33
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+# Warmup Iteration   4: ≈ 10⁻⁷ s/op
+# Warmup Iteration   5: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p1.00:   0.001 s/op
+
+Iteration   2: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   4: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   5: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortLinkedHashSet·p1.00:   0.001 s/op
+
+Iteration   6: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p1.00:   0.001 s/op
+
+Iteration   7: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   8: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   9: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration  10: ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.00:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.50:   ≈ 0 s/op
+                 sortLinkedHashSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortLinkedHashSet·p0.999:  ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortLinkedHashSet·p1.00:   ≈ 10⁻⁵ s/op
+
+
+
+Result "ant.far.MyBenchmark.sortLinkedHashSet":
+  N = 3116256
+  mean =     ≈ 10⁻⁷ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 3116252 
+    [0.000, 0.000) = 0 
+    [0.000, 0.000) = 1 
+    [0.000, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 1 
+    [0.001, 0.002) = 2 
+    [0.002, 0.002) = 0 
+    [0.002, 0.002) = 0 
+    [0.002, 0.002) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =        ≈ 0 s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁶ s/op
+     p(99.9990) =     ≈ 10⁻⁵ s/op
+     p(99.9999) =      0.001 s/op
+    p(100.0000) =      0.001 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: ant.far.MyBenchmark.sortTreeSet
+
+# Run progress: 96.29% complete, ETA 00:05:02
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   2: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   3: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   4: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   5: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   6: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   7: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   8: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁷ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   9: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  10: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+
+# Run progress: 98.14% complete, ETA 00:02:31
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁸ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   2: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   3: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   4: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   5: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   6: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   7: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   8: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   9: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration  10: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁷ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+
+
+Result "ant.far.MyBenchmark.sortTreeSet":
+  N = 2693157
+  mean =     ≈ 10⁻⁸ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 2693116 
+    [ 0.000,  0.000) = 40 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =        ≈ 0 s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁷ s/op
+     p(99.9900) =     ≈ 10⁻⁶ s/op
+     p(99.9990) =     ≈ 10⁻⁵ s/op
+     p(99.9999) =     ≈ 10⁻⁵ s/op
+    p(100.0000) =     ≈ 10⁻⁴ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: ant.far.MyBenchmark.insertIntoHashSet
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.100 s/op
+# Warmup Iteration   2: 0.109 s/op
+# Warmup Iteration   3: 0.077 s/op
+# Warmup Iteration   4: 0.091 s/op
+# Warmup Iteration   5: 0.079 s/op
+Iteration   1: 0.094 s/op
+Iteration   2: 0.089 s/op
+Iteration   3: 0.091 s/op
+Iteration   4: 0.094 s/op
+Iteration   5: 0.100 s/op
+Iteration   6: 0.082 s/op
+Iteration   7: 0.084 s/op
+Iteration   8: 0.081 s/op
+Iteration   9: 0.080 s/op
+Iteration  10: 0.083 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.098 s/op
+# Warmup Iteration   2: 0.111 s/op
+# Warmup Iteration   3: 0.075 s/op
+# Warmup Iteration   4: 0.092 s/op
+# Warmup Iteration   5: 0.078 s/op
+Iteration   1: 0.095 s/op
+Iteration   2: 0.088 s/op
+Iteration   3: 0.089 s/op
+Iteration   4: 0.089 s/op
+Iteration   5: 0.098 s/op
+Iteration   6: 0.080 s/op
+Iteration   7: 0.079 s/op
+Iteration   8: 0.088 s/op
+Iteration   9: 0.099 s/op
+Iteration  10: 0.095 s/op
+
+
+Result "ant.far.MyBenchmark.insertIntoHashSet":
+  N = 10
+  mean =      0.090 ±(99.9%) 0.011 s/op
+
+  Histogram, s/op:
+    [0.070, 0.073) = 0 
+    [0.073, 0.075) = 0 
+    [0.075, 0.078) = 0 
+    [0.078, 0.080) = 1 
+    [0.080, 0.083) = 1 
+    [0.083, 0.085) = 0 
+    [0.085, 0.088) = 0 
+    [0.088, 0.090) = 4 
+    [0.090, 0.093) = 0 
+    [0.093, 0.095) = 0 
+    [0.095, 0.098) = 2 
+
+  Percentiles, s/op:
+      p(0.0000) =      0.079 s/op
+     p(50.0000) =      0.089 s/op
+     p(90.0000) =      0.099 s/op
+     p(95.0000) =      0.099 s/op
+     p(99.0000) =      0.099 s/op
+     p(99.9000) =      0.099 s/op
+     p(99.9900) =      0.099 s/op
+     p(99.9990) =      0.099 s/op
+     p(99.9999) =      0.099 s/op
+    p(100.0000) =      0.099 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: ant.far.MyBenchmark.insertIntoLinkedHashSet
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.112 s/op
+# Warmup Iteration   2: 0.119 s/op
+# Warmup Iteration   3: 0.099 s/op
+# Warmup Iteration   4: 0.100 s/op
+# Warmup Iteration   5: 0.094 s/op
+Iteration   1: 0.099 s/op
+Iteration   2: 0.099 s/op
+Iteration   3: 0.096 s/op
+Iteration   4: 0.100 s/op
+Iteration   5: 0.101 s/op
+Iteration   6: 0.100 s/op
+Iteration   7: 0.099 s/op
+Iteration   8: 0.103 s/op
+Iteration   9: 0.101 s/op
+Iteration  10: 0.101 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.109 s/op
+# Warmup Iteration   2: 0.137 s/op
+# Warmup Iteration   3: 0.106 s/op
+# Warmup Iteration   4: 0.102 s/op
+# Warmup Iteration   5: 0.098 s/op
+Iteration   1: 0.099 s/op
+Iteration   2: 0.093 s/op
+Iteration   3: 0.093 s/op
+Iteration   4: 0.101 s/op
+Iteration   5: 0.100 s/op
+Iteration   6: 0.097 s/op
+Iteration   7: 0.100 s/op
+Iteration   8: 0.099 s/op
+Iteration   9: 0.105 s/op
+Iteration  10: 0.097 s/op
+
+
+Result "ant.far.MyBenchmark.insertIntoLinkedHashSet":
+  N = 10
+  mean =      0.098 ±(99.9%) 0.006 s/op
+
+  Histogram, s/op:
+    [0.090, 0.091) = 0 
+    [0.091, 0.093) = 0 
+    [0.093, 0.094) = 2 
+    [0.094, 0.095) = 0 
+    [0.095, 0.096) = 0 
+    [0.096, 0.098) = 2 
+    [0.098, 0.099) = 1 
+    [0.099, 0.100) = 2 
+    [0.100, 0.101) = 2 
+    [0.101, 0.103) = 0 
+    [0.103, 0.104) = 0 
+    [0.104, 0.105) = 0 
+    [0.105, 0.106) = 1 
+    [0.106, 0.108) = 0 
+    [0.108, 0.109) = 0 
+    [0.109, 0.110) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =      0.093 s/op
+     p(50.0000) =      0.099 s/op
+     p(90.0000) =      0.105 s/op
+     p(95.0000) =      0.105 s/op
+     p(99.0000) =      0.105 s/op
+     p(99.9000) =      0.105 s/op
+     p(99.9900) =      0.105 s/op
+     p(99.9990) =      0.105 s/op
+     p(99.9999) =      0.105 s/op
+    p(100.0000) =      0.105 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: ant.far.MyBenchmark.insertIntoTreeSet
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.298 s/op
+# Warmup Iteration   2: 0.386 s/op
+# Warmup Iteration   3: 0.474 s/op
+# Warmup Iteration   4: 0.402 s/op
+# Warmup Iteration   5: 0.379 s/op
+Iteration   1: 0.375 s/op
+Iteration   2: 0.369 s/op
+Iteration   3: 0.375 s/op
+Iteration   4: 0.377 s/op
+Iteration   5: 0.382 s/op
+Iteration   6: 0.369 s/op
+Iteration   7: 0.387 s/op
+Iteration   8: 0.388 s/op
+Iteration   9: 0.367 s/op
+Iteration  10: 0.361 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.319 s/op
+# Warmup Iteration   2: 0.374 s/op
+# Warmup Iteration   3: 0.379 s/op
+# Warmup Iteration   4: 0.391 s/op
+# Warmup Iteration   5: 0.373 s/op
+Iteration   1: 0.378 s/op
+Iteration   2: 0.365 s/op
+Iteration   3: 0.370 s/op
+Iteration   4: 0.380 s/op
+Iteration   5: 0.373 s/op
+Iteration   6: 0.374 s/op
+Iteration   7: 0.371 s/op
+Iteration   8: 0.400 s/op
+Iteration   9: 0.416 s/op
+Iteration  10: 0.390 s/op
+
+
+Result "ant.far.MyBenchmark.insertIntoTreeSet":
+  N = 10
+  mean =      0.382 ±(99.9%) 0.024 s/op
+
+  Histogram, s/op:
+    [0.360, 0.365) = 0 
+    [0.365, 0.370) = 1 
+    [0.370, 0.375) = 4 
+    [0.375, 0.380) = 2 
+    [0.380, 0.385) = 0 
+    [0.385, 0.390) = 1 
+    [0.390, 0.395) = 0 
+    [0.395, 0.400) = 0 
+    [0.400, 0.405) = 1 
+    [0.405, 0.410) = 0 
+    [0.410, 0.415) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =      0.365 s/op
+     p(50.0000) =      0.376 s/op
+     p(90.0000) =      0.414 s/op
+     p(95.0000) =      0.416 s/op
+     p(99.0000) =      0.416 s/op
+     p(99.9000) =      0.416 s/op
+     p(99.9900) =      0.416 s/op
+     p(99.9990) =      0.416 s/op
+     p(99.9999) =      0.416 s/op
+    p(100.0000) =      0.416 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: ant.far.MyBenchmark.searchInHashSet
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ s/op
+# Warmup Iteration   2: ≈ 10⁻⁵ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁵ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   6: ≈ 10⁻⁶ s/op
+Iteration   7: ≈ 10⁻⁶ s/op
+Iteration   8: ≈ 10⁻⁶ s/op
+Iteration   9: ≈ 10⁻⁶ s/op
+Iteration  10: ≈ 10⁻⁶ s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ s/op
+# Warmup Iteration   2: ≈ 10⁻⁵ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁵ s/op
+# Warmup Iteration   5: ≈ 10⁻⁵ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   6: ≈ 10⁻⁶ s/op
+Iteration   7: ≈ 10⁻⁶ s/op
+Iteration   8: ≈ 10⁻⁶ s/op
+Iteration   9: ≈ 10⁻⁶ s/op
+Iteration  10: ≈ 10⁻⁶ s/op
+
+
+Result "ant.far.MyBenchmark.searchInHashSet":
+  N = 10
+  mean =     ≈ 10⁻⁶ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 3 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 2 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 2 
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁶ s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁶ s/op
+     p(95.0000) =     ≈ 10⁻⁶ s/op
+     p(99.0000) =     ≈ 10⁻⁶ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁶ s/op
+     p(99.9990) =     ≈ 10⁻⁶ s/op
+     p(99.9999) =     ≈ 10⁻⁶ s/op
+    p(100.0000) =     ≈ 10⁻⁶ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: ant.far.MyBenchmark.searchInLinkedHashSet
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ s/op
+# Warmup Iteration   2: ≈ 10⁻⁵ s/op
+# Warmup Iteration   3: ≈ 10⁻⁵ s/op
+# Warmup Iteration   4: ≈ 10⁻⁵ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁵ s/op
+Iteration   5: ≈ 10⁻⁵ s/op
+Iteration   6: ≈ 10⁻⁵ s/op
+Iteration   7: ≈ 10⁻⁶ s/op
+Iteration   8: ≈ 10⁻⁶ s/op
+Iteration   9: ≈ 10⁻⁶ s/op
+Iteration  10: ≈ 10⁻⁵ s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ s/op
+# Warmup Iteration   2: ≈ 10⁻⁵ s/op
+# Warmup Iteration   3: ≈ 10⁻⁵ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   6: ≈ 10⁻⁶ s/op
+Iteration   7: ≈ 10⁻⁶ s/op
+Iteration   8: ≈ 10⁻⁶ s/op
+Iteration   9: ≈ 10⁻⁶ s/op
+Iteration  10: ≈ 10⁻⁶ s/op
+
+
+Result "ant.far.MyBenchmark.searchInLinkedHashSet":
+  N = 10
+  mean =     ≈ 10⁻⁶ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 6 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 2 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁶ s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁶ s/op
+     p(95.0000) =     ≈ 10⁻⁶ s/op
+     p(99.0000) =     ≈ 10⁻⁶ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁶ s/op
+     p(99.9990) =     ≈ 10⁻⁶ s/op
+     p(99.9999) =     ≈ 10⁻⁶ s/op
+    p(100.0000) =     ≈ 10⁻⁶ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: ant.far.MyBenchmark.searchInTreeSet
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ s/op
+# Warmup Iteration   2: ≈ 10⁻⁵ s/op
+# Warmup Iteration   3: ≈ 10⁻⁵ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   6: ≈ 10⁻⁶ s/op
+Iteration   7: ≈ 10⁻⁶ s/op
+Iteration   8: ≈ 10⁻⁶ s/op
+Iteration   9: ≈ 10⁻⁶ s/op
+Iteration  10: ≈ 10⁻⁶ s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁵ s/op
+# Warmup Iteration   2: ≈ 10⁻⁵ s/op
+# Warmup Iteration   3: ≈ 10⁻⁵ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   6: ≈ 10⁻⁶ s/op
+Iteration   7: ≈ 10⁻⁵ s/op
+Iteration   8: ≈ 10⁻⁵ s/op
+Iteration   9: ≈ 10⁻⁶ s/op
+Iteration  10: ≈ 10⁻⁶ s/op
+
+
+Result "ant.far.MyBenchmark.searchInTreeSet":
+  N = 10
+  mean =     ≈ 10⁻⁶ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 5 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 2 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 1 
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁶ s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁵ s/op
+     p(95.0000) =     ≈ 10⁻⁵ s/op
+     p(99.0000) =     ≈ 10⁻⁵ s/op
+     p(99.9000) =     ≈ 10⁻⁵ s/op
+     p(99.9900) =     ≈ 10⁻⁵ s/op
+     p(99.9990) =     ≈ 10⁻⁵ s/op
+     p(99.9999) =     ≈ 10⁻⁵ s/op
+    p(100.0000) =     ≈ 10⁻⁵ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: ant.far.MyBenchmark.sortHashSet
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁴ s/op
+# Warmup Iteration   2: ≈ 10⁻⁵ s/op
+# Warmup Iteration   3: ≈ 10⁻⁵ s/op
+# Warmup Iteration   4: ≈ 10⁻⁵ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁵ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   6: ≈ 10⁻⁵ s/op
+Iteration   7: ≈ 10⁻⁶ s/op
+Iteration   8: ≈ 10⁻⁵ s/op
+Iteration   9: ≈ 10⁻⁵ s/op
+Iteration  10: ≈ 10⁻⁶ s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁴ s/op
+# Warmup Iteration   2: ≈ 10⁻⁵ s/op
+# Warmup Iteration   3: ≈ 10⁻⁵ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁵ s/op
+Iteration   2: ≈ 10⁻⁵ s/op
+Iteration   3: ≈ 10⁻⁵ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁵ s/op
+Iteration   6: ≈ 10⁻⁵ s/op
+Iteration   7: ≈ 10⁻⁵ s/op
+Iteration   8: ≈ 10⁻⁵ s/op
+Iteration   9: ≈ 10⁻⁶ s/op
+Iteration  10: ≈ 10⁻⁶ s/op
+
+
+Result "ant.far.MyBenchmark.sortHashSet":
+  N = 10
+  mean =     ≈ 10⁻⁵ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 2 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 2 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 2 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁶ s/op
+     p(50.0000) =     ≈ 10⁻⁵ s/op
+     p(90.0000) =     ≈ 10⁻⁵ s/op
+     p(95.0000) =     ≈ 10⁻⁵ s/op
+     p(99.0000) =     ≈ 10⁻⁵ s/op
+     p(99.9000) =     ≈ 10⁻⁵ s/op
+     p(99.9900) =     ≈ 10⁻⁵ s/op
+     p(99.9990) =     ≈ 10⁻⁵ s/op
+     p(99.9999) =     ≈ 10⁻⁵ s/op
+    p(100.0000) =     ≈ 10⁻⁵ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: ant.far.MyBenchmark.sortLinkedHashSet
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁴ s/op
+# Warmup Iteration   2: ≈ 10⁻⁵ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁵ s/op
+# Warmup Iteration   5: ≈ 10⁻⁵ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁵ s/op
+Iteration   6: ≈ 10⁻⁵ s/op
+Iteration   7: ≈ 10⁻⁶ s/op
+Iteration   8: ≈ 10⁻⁶ s/op
+Iteration   9: ≈ 10⁻⁶ s/op
+Iteration  10: ≈ 10⁻⁶ s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁴ s/op
+# Warmup Iteration   2: ≈ 10⁻⁵ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁵ s/op
+# Warmup Iteration   5: ≈ 10⁻⁵ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁵ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁵ s/op
+Iteration   6: ≈ 10⁻⁶ s/op
+Iteration   7: ≈ 10⁻⁶ s/op
+Iteration   8: ≈ 10⁻⁶ s/op
+Iteration   9: ≈ 10⁻⁵ s/op
+Iteration  10: ≈ 10⁻⁵ s/op
+
+
+Result "ant.far.MyBenchmark.sortLinkedHashSet":
+  N = 10
+  mean =     ≈ 10⁻⁵ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 4 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 2 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁶ s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁵ s/op
+     p(95.0000) =     ≈ 10⁻⁵ s/op
+     p(99.0000) =     ≈ 10⁻⁵ s/op
+     p(99.9000) =     ≈ 10⁻⁵ s/op
+     p(99.9900) =     ≈ 10⁻⁵ s/op
+     p(99.9990) =     ≈ 10⁻⁵ s/op
+     p(99.9999) =     ≈ 10⁻⁵ s/op
+    p(100.0000) =     ≈ 10⁻⁵ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: ant.far.MyBenchmark.sortTreeSet
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   2: ≈ 10⁻⁷ s/op
+Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   4: ≈ 10⁻⁷ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   6: ≈ 10⁻⁷ s/op
+Iteration   7: ≈ 10⁻⁷ s/op
+Iteration   8: ≈ 10⁻⁶ s/op
+Iteration   9: ≈ 10⁻⁷ s/op
+Iteration  10: ≈ 10⁻⁶ s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   2: ≈ 10⁻⁷ s/op
+Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   4: ≈ 10⁻⁷ s/op
+Iteration   5: ≈ 10⁻⁷ s/op
+Iteration   6: ≈ 10⁻⁷ s/op
+Iteration   7: ≈ 10⁻⁷ s/op
+Iteration   8: ≈ 10⁻⁷ s/op
+Iteration   9: ≈ 10⁻⁷ s/op
+Iteration  10: ≈ 10⁻⁷ s/op
+
+
+Result "ant.far.MyBenchmark.sortTreeSet":
+  N = 10
+  mean =     ≈ 10⁻⁷ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 3 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁷ s/op
+     p(50.0000) =     ≈ 10⁻⁷ s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁷ s/op
+     p(99.9900) =     ≈ 10⁻⁷ s/op
+     p(99.9990) =     ≈ 10⁻⁷ s/op
+     p(99.9999) =     ≈ 10⁻⁷ s/op
+    p(100.0000) =     ≈ 10⁻⁷ s/op
+
+
+# Run complete. Total time: 02:16:09
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                                              Mode      Cnt           Score          Error  Units
+MyBenchmark.insertIntoHashSet                                         thrpt       10          11.896 ±        0.836  ops/s
+MyBenchmark.insertIntoLinkedHashSet                                   thrpt       10          11.083 ±        0.611  ops/s
+MyBenchmark.insertIntoTreeSet                                         thrpt       10           2.335 ±        0.191  ops/s
+MyBenchmark.searchInHashSet                                           thrpt       10   104042870.737 ±  2663584.552  ops/s
+MyBenchmark.searchInLinkedHashSet                                     thrpt       10   102039791.049 ±   698077.542  ops/s
+MyBenchmark.searchInTreeSet                                           thrpt       10   102055424.139 ±  1179272.322  ops/s
+MyBenchmark.sortHashSet                                               thrpt       10    67678318.742 ±  1619927.476  ops/s
+MyBenchmark.sortLinkedHashSet                                         thrpt       10    69530434.427 ±   828461.516  ops/s
+MyBenchmark.sortTreeSet                                               thrpt       10  2910356804.002 ± 48603753.822  ops/s
+MyBenchmark.insertIntoHashSet                                          avgt       10           0.090 ±        0.002   s/op
+MyBenchmark.insertIntoLinkedHashSet                                    avgt       10           0.099 ±        0.006   s/op
+MyBenchmark.insertIntoTreeSet                                          avgt       10           0.443 ±        0.009   s/op
+MyBenchmark.searchInHashSet                                            avgt       10          ≈ 10⁻⁸                  s/op
+MyBenchmark.searchInLinkedHashSet                                      avgt       10          ≈ 10⁻⁸                  s/op
+MyBenchmark.searchInTreeSet                                            avgt       10          ≈ 10⁻⁸                  s/op
+MyBenchmark.sortHashSet                                                avgt       10          ≈ 10⁻⁸                  s/op
+MyBenchmark.sortLinkedHashSet                                          avgt       10          ≈ 10⁻⁸                  s/op
+MyBenchmark.sortTreeSet                                                avgt       10          ≈ 10⁻⁹                  s/op
+MyBenchmark.insertIntoHashSet                                        sample     1392           0.072 ±        0.001   s/op
+MyBenchmark.insertIntoHashSet:insertIntoHashSet·p0.00                sample                    0.068                  s/op
+MyBenchmark.insertIntoHashSet:insertIntoHashSet·p0.50                sample                    0.069                  s/op
+MyBenchmark.insertIntoHashSet:insertIntoHashSet·p0.90                sample                    0.079                  s/op
+MyBenchmark.insertIntoHashSet:insertIntoHashSet·p0.95                sample                    0.089                  s/op
+MyBenchmark.insertIntoHashSet:insertIntoHashSet·p0.99                sample                    0.113                  s/op
+MyBenchmark.insertIntoHashSet:insertIntoHashSet·p0.999               sample                    0.137                  s/op
+MyBenchmark.insertIntoHashSet:insertIntoHashSet·p0.9999              sample                    0.137                  s/op
+MyBenchmark.insertIntoHashSet:insertIntoHashSet·p1.00                sample                    0.137                  s/op
+MyBenchmark.insertIntoLinkedHashSet                                  sample     1362           0.074 ±        0.001   s/op
+MyBenchmark.insertIntoLinkedHashSet:insertIntoLinkedHashSet·p0.00    sample                    0.071                  s/op
+MyBenchmark.insertIntoLinkedHashSet:insertIntoLinkedHashSet·p0.50    sample                    0.072                  s/op
+MyBenchmark.insertIntoLinkedHashSet:insertIntoLinkedHashSet·p0.90    sample                    0.077                  s/op
+MyBenchmark.insertIntoLinkedHashSet:insertIntoLinkedHashSet·p0.95    sample                    0.082                  s/op
+MyBenchmark.insertIntoLinkedHashSet:insertIntoLinkedHashSet·p0.99    sample                    0.089                  s/op
+MyBenchmark.insertIntoLinkedHashSet:insertIntoLinkedHashSet·p0.999   sample                    0.128                  s/op
+MyBenchmark.insertIntoLinkedHashSet:insertIntoLinkedHashSet·p0.9999  sample                    0.128                  s/op
+MyBenchmark.insertIntoLinkedHashSet:insertIntoLinkedHashSet·p1.00    sample                    0.128                  s/op
+MyBenchmark.insertIntoTreeSet                                        sample      270           0.377 ±        0.002   s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p0.00                sample                    0.367                  s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p0.50                sample                    0.374                  s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p0.90                sample                    0.391                  s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p0.95                sample                    0.401                  s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p0.99                sample                    0.420                  s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p0.999               sample                    0.452                  s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p0.9999              sample                    0.452                  s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p1.00                sample                    0.452                  s/op
+MyBenchmark.searchInHashSet                                          sample  2540723          ≈ 10⁻⁸                  s/op
+MyBenchmark.searchInHashSet:searchInHashSet·p0.00                    sample                      ≈ 0                  s/op
+MyBenchmark.searchInHashSet:searchInHashSet·p0.50                    sample                      ≈ 0                  s/op
+MyBenchmark.searchInHashSet:searchInHashSet·p0.90                    sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.searchInHashSet:searchInHashSet·p0.95                    sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.searchInHashSet:searchInHashSet·p0.99                    sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.searchInHashSet:searchInHashSet·p0.999                   sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.searchInHashSet:searchInHashSet·p0.9999                  sample                   ≈ 10⁻⁵                  s/op
+MyBenchmark.searchInHashSet:searchInHashSet·p1.00                    sample                    0.001                  s/op
+MyBenchmark.searchInLinkedHashSet                                    sample  2554631          ≈ 10⁻⁸                  s/op
+MyBenchmark.searchInLinkedHashSet:searchInLinkedHashSet·p0.00        sample                      ≈ 0                  s/op
+MyBenchmark.searchInLinkedHashSet:searchInLinkedHashSet·p0.50        sample                      ≈ 0                  s/op
+MyBenchmark.searchInLinkedHashSet:searchInLinkedHashSet·p0.90        sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.searchInLinkedHashSet:searchInLinkedHashSet·p0.95        sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.searchInLinkedHashSet:searchInLinkedHashSet·p0.99        sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.searchInLinkedHashSet:searchInLinkedHashSet·p0.999       sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.searchInLinkedHashSet:searchInLinkedHashSet·p0.9999      sample                   ≈ 10⁻⁵                  s/op
+MyBenchmark.searchInLinkedHashSet:searchInLinkedHashSet·p1.00        sample                    0.001                  s/op
+MyBenchmark.searchInTreeSet                                          sample  2552707          ≈ 10⁻⁷                  s/op
+MyBenchmark.searchInTreeSet:searchInTreeSet·p0.00                    sample                      ≈ 0                  s/op
+MyBenchmark.searchInTreeSet:searchInTreeSet·p0.50                    sample                      ≈ 0                  s/op
+MyBenchmark.searchInTreeSet:searchInTreeSet·p0.90                    sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.searchInTreeSet:searchInTreeSet·p0.95                    sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.searchInTreeSet:searchInTreeSet·p0.99                    sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.searchInTreeSet:searchInTreeSet·p0.999                   sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.searchInTreeSet:searchInTreeSet·p0.9999                  sample                   ≈ 10⁻⁵                  s/op
+MyBenchmark.searchInTreeSet:searchInTreeSet·p1.00                    sample                    0.003                  s/op
+MyBenchmark.sortHashSet                                              sample  3079890          ≈ 10⁻⁷                  s/op
+MyBenchmark.sortHashSet:sortHashSet·p0.00                            sample                      ≈ 0                  s/op
+MyBenchmark.sortHashSet:sortHashSet·p0.50                            sample                      ≈ 0                  s/op
+MyBenchmark.sortHashSet:sortHashSet·p0.90                            sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.sortHashSet:sortHashSet·p0.95                            sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.sortHashSet:sortHashSet·p0.99                            sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.sortHashSet:sortHashSet·p0.999                           sample                   ≈ 10⁻⁶                  s/op
+MyBenchmark.sortHashSet:sortHashSet·p0.9999                          sample                   ≈ 10⁻⁵                  s/op
+MyBenchmark.sortHashSet:sortHashSet·p1.00                            sample                    0.001                  s/op
+MyBenchmark.sortLinkedHashSet                                        sample  3116256          ≈ 10⁻⁷                  s/op
+MyBenchmark.sortLinkedHashSet:sortLinkedHashSet·p0.00                sample                      ≈ 0                  s/op
+MyBenchmark.sortLinkedHashSet:sortLinkedHashSet·p0.50                sample                      ≈ 0                  s/op
+MyBenchmark.sortLinkedHashSet:sortLinkedHashSet·p0.90                sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.sortLinkedHashSet:sortLinkedHashSet·p0.95                sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.sortLinkedHashSet:sortLinkedHashSet·p0.99                sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.sortLinkedHashSet:sortLinkedHashSet·p0.999               sample                   ≈ 10⁻⁶                  s/op
+MyBenchmark.sortLinkedHashSet:sortLinkedHashSet·p0.9999              sample                   ≈ 10⁻⁶                  s/op
+MyBenchmark.sortLinkedHashSet:sortLinkedHashSet·p1.00                sample                    0.001                  s/op
+MyBenchmark.sortTreeSet                                              sample  2693157          ≈ 10⁻⁸                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p0.00                            sample                      ≈ 0                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p0.50                            sample                      ≈ 0                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p0.90                            sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p0.95                            sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p0.99                            sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p0.999                           sample                   ≈ 10⁻⁷                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p0.9999                          sample                   ≈ 10⁻⁶                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p1.00                            sample                   ≈ 10⁻⁴                  s/op
+MyBenchmark.insertIntoHashSet                                            ss       10           0.090 ±        0.011   s/op
+MyBenchmark.insertIntoLinkedHashSet                                      ss       10           0.098 ±        0.006   s/op
+MyBenchmark.insertIntoTreeSet                                            ss       10           0.382 ±        0.024   s/op
+MyBenchmark.searchInHashSet                                              ss       10          ≈ 10⁻⁶                  s/op
+MyBenchmark.searchInLinkedHashSet                                        ss       10          ≈ 10⁻⁶                  s/op
+MyBenchmark.searchInTreeSet                                              ss       10          ≈ 10⁻⁶                  s/op
+MyBenchmark.sortHashSet                                                  ss       10          ≈ 10⁻⁵                  s/op
+MyBenchmark.sortLinkedHashSet                                            ss       10          ≈ 10⁻⁵                  s/op
+MyBenchmark.sortTreeSet                                                  ss       10          ≈ 10⁻⁷                  s/op
