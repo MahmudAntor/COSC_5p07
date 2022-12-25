@@ -1,0 +1,952 @@
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ant.far.MyBenchmark.insertIntoTreeSet
+
+# Run progress: 0.00% complete, ETA 00:30:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 2.646 ops/s
+# Warmup Iteration   2: 2.831 ops/s
+# Warmup Iteration   3: 2.915 ops/s
+# Warmup Iteration   4: 2.797 ops/s
+# Warmup Iteration   5: 2.904 ops/s
+Iteration   1: 2.911 ops/s
+Iteration   2: 2.893 ops/s
+Iteration   3: 2.853 ops/s
+Iteration   4: 2.890 ops/s
+Iteration   5: 2.909 ops/s
+Iteration   6: 2.914 ops/s
+Iteration   7: 2.927 ops/s
+Iteration   8: 2.917 ops/s
+Iteration   9: 2.910 ops/s
+Iteration  10: 2.922 ops/s
+
+# Run progress: 8.33% complete, ETA 00:28:09
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.769 ops/s
+# Warmup Iteration   2: 2.686 ops/s
+# Warmup Iteration   3: 2.920 ops/s
+# Warmup Iteration   4: 2.541 ops/s
+# Warmup Iteration   5: 2.619 ops/s
+Iteration   1: 2.573 ops/s
+Iteration   2: 2.625 ops/s
+Iteration   3: 2.690 ops/s
+Iteration   4: 2.817 ops/s
+Iteration   5: 2.732 ops/s
+Iteration   6: 2.711 ops/s
+Iteration   7: 2.728 ops/s
+Iteration   8: 2.768 ops/s
+Iteration   9: 2.734 ops/s
+Iteration  10: 2.819 ops/s
+
+
+Result "ant.far.MyBenchmark.insertIntoTreeSet":
+  2.720 ±(99.9%) 0.117 ops/s [Average]
+  (min, avg, max) = (2.573, 2.720, 2.819), stdev = 0.077
+  CI (99.9%): [2.603, 2.837] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ant.far.MyBenchmark.sortTreeSet
+
+# Run progress: 16.67% complete, ETA 00:25:34
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 439265886.854 ops/s
+# Warmup Iteration   2: 441909452.690 ops/s
+# Warmup Iteration   3: 448600257.274 ops/s
+# Warmup Iteration   4: 441080858.318 ops/s
+# Warmup Iteration   5: 443840800.162 ops/s
+Iteration   1: 450220968.388 ops/s
+Iteration   2: 452545646.089 ops/s
+Iteration   3: 447353800.827 ops/s
+Iteration   4: 449106423.812 ops/s
+Iteration   5: 448391774.805 ops/s
+Iteration   6: 445819196.720 ops/s
+Iteration   7: 434840661.213 ops/s
+Iteration   8: 442159298.241 ops/s
+Iteration   9: 428807218.259 ops/s
+Iteration  10: 442578628.016 ops/s
+
+# Run progress: 25.00% complete, ETA 00:22:52
+# Fork: 1 of 1
+# Warmup Iteration   1: 490123592.379 ops/s
+# Warmup Iteration   2: 502416302.370 ops/s
+# Warmup Iteration   3: 547643704.056 ops/s
+# Warmup Iteration   4: 548564741.628 ops/s
+# Warmup Iteration   5: 542802107.596 ops/s
+Iteration   1: 552072076.901 ops/s
+Iteration   2: 554460471.825 ops/s
+Iteration   3: 541812683.726 ops/s
+Iteration   4: 537179879.799 ops/s
+Iteration   5: 532393979.386 ops/s
+Iteration   6: 546717319.092 ops/s
+Iteration   7: 553321045.367 ops/s
+Iteration   8: 546925021.587 ops/s
+Iteration   9: 560611299.089 ops/s
+Iteration  10: 555500397.469 ops/s
+
+
+Result "ant.far.MyBenchmark.sortTreeSet":
+  548099417.424 ±(99.9%) 13367015.421 ops/s [Average]
+  (min, avg, max) = (532393979.386, 548099417.424, 560611299.089), stdev = 8841453.067
+  CI (99.9%): [534732402.003, 561466432.845] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ant.far.MyBenchmark.insertIntoTreeSet
+
+# Run progress: 33.33% complete, ETA 00:20:15
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.383 s/op
+# Warmup Iteration   2: 0.381 s/op
+# Warmup Iteration   3: 0.373 s/op
+# Warmup Iteration   4: 0.355 s/op
+# Warmup Iteration   5: 0.351 s/op
+Iteration   1: 0.359 s/op
+Iteration   2: 0.350 s/op
+Iteration   3: 0.354 s/op
+Iteration   4: 0.357 s/op
+Iteration   5: 0.374 s/op
+Iteration   6: 0.381 s/op
+Iteration   7: 0.360 s/op
+Iteration   8: 0.366 s/op
+Iteration   9: 0.363 s/op
+Iteration  10: 0.383 s/op
+
+# Run progress: 41.67% complete, ETA 00:17:45
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.372 s/op
+# Warmup Iteration   2: 0.382 s/op
+# Warmup Iteration   3: 0.349 s/op
+# Warmup Iteration   4: 0.357 s/op
+# Warmup Iteration   5: 0.360 s/op
+Iteration   1: 0.361 s/op
+Iteration   2: 0.369 s/op
+Iteration   3: 0.371 s/op
+Iteration   4: 0.363 s/op
+Iteration   5: 0.366 s/op
+Iteration   6: 0.366 s/op
+Iteration   7: 0.374 s/op
+Iteration   8: 0.368 s/op
+Iteration   9: 0.368 s/op
+Iteration  10: 0.358 s/op
+
+
+Result "ant.far.MyBenchmark.insertIntoTreeSet":
+  0.366 ±(99.9%) 0.007 s/op [Average]
+  (min, avg, max) = (0.358, 0.366, 0.374), stdev = 0.005
+  CI (99.9%): [0.359, 0.373] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: ant.far.MyBenchmark.sortTreeSet
+
+# Run progress: 50.00% complete, ETA 00:15:14
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁹ s/op
+# Warmup Iteration   2: ≈ 10⁻⁹ s/op
+# Warmup Iteration   3: ≈ 10⁻⁹ s/op
+# Warmup Iteration   4: ≈ 10⁻⁹ s/op
+# Warmup Iteration   5: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   4: ≈ 10⁻⁹ s/op
+Iteration   5: ≈ 10⁻⁹ s/op
+Iteration   6: ≈ 10⁻⁹ s/op
+Iteration   7: ≈ 10⁻⁹ s/op
+Iteration   8: ≈ 10⁻⁹ s/op
+Iteration   9: ≈ 10⁻⁹ s/op
+Iteration  10: ≈ 10⁻⁹ s/op
+
+# Run progress: 58.33% complete, ETA 00:12:40
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁹ s/op
+# Warmup Iteration   2: ≈ 10⁻⁹ s/op
+# Warmup Iteration   3: ≈ 10⁻⁹ s/op
+# Warmup Iteration   4: ≈ 10⁻⁹ s/op
+# Warmup Iteration   5: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   4: ≈ 10⁻⁹ s/op
+Iteration   5: ≈ 10⁻⁹ s/op
+Iteration   6: ≈ 10⁻⁹ s/op
+Iteration   7: ≈ 10⁻⁹ s/op
+Iteration   8: ≈ 10⁻⁹ s/op
+Iteration   9: ≈ 10⁻⁹ s/op
+Iteration  10: ≈ 10⁻⁹ s/op
+
+
+Result "ant.far.MyBenchmark.sortTreeSet":
+  ≈ 10⁻⁹ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: ant.far.MyBenchmark.insertIntoTreeSet
+
+# Run progress: 66.66% complete, ETA 00:10:07
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.371 ±(99.9%) 0.024 s/op
+# Warmup Iteration   2: 0.403 ±(99.9%) 0.031 s/op
+# Warmup Iteration   3: 0.365 ±(99.9%) 0.020 s/op
+# Warmup Iteration   4: 0.399 ±(99.9%) 0.026 s/op
+# Warmup Iteration   5: 0.354 ±(99.9%) 0.012 s/op
+Iteration   1: 0.382 ±(99.9%) 0.024 s/op
+                 insertIntoTreeSet·p0.00:   0.340 s/op
+                 insertIntoTreeSet·p0.50:   0.380 s/op
+                 insertIntoTreeSet·p0.90:   0.442 s/op
+                 insertIntoTreeSet·p0.95:   0.454 s/op
+                 insertIntoTreeSet·p0.99:   0.459 s/op
+                 insertIntoTreeSet·p0.999:  0.459 s/op
+                 insertIntoTreeSet·p0.9999: 0.459 s/op
+                 insertIntoTreeSet·p1.00:   0.459 s/op
+
+Iteration   2: 0.364 ±(99.9%) 0.010 s/op
+                 insertIntoTreeSet·p0.00:   0.340 s/op
+                 insertIntoTreeSet·p0.50:   0.365 s/op
+                 insertIntoTreeSet·p0.90:   0.385 s/op
+                 insertIntoTreeSet·p0.95:   0.393 s/op
+                 insertIntoTreeSet·p0.99:   0.393 s/op
+                 insertIntoTreeSet·p0.999:  0.393 s/op
+                 insertIntoTreeSet·p0.9999: 0.393 s/op
+                 insertIntoTreeSet·p1.00:   0.393 s/op
+
+Iteration   3: 0.343 ±(99.9%) 0.006 s/op
+                 insertIntoTreeSet·p0.00:   0.336 s/op
+                 insertIntoTreeSet·p0.50:   0.340 s/op
+                 insertIntoTreeSet·p0.90:   0.362 s/op
+                 insertIntoTreeSet·p0.95:   0.368 s/op
+                 insertIntoTreeSet·p0.99:   0.369 s/op
+                 insertIntoTreeSet·p0.999:  0.369 s/op
+                 insertIntoTreeSet·p0.9999: 0.369 s/op
+                 insertIntoTreeSet·p1.00:   0.369 s/op
+
+Iteration   4: 0.343 ±(99.9%) 0.006 s/op
+                 insertIntoTreeSet·p0.00:   0.333 s/op
+                 insertIntoTreeSet·p0.50:   0.341 s/op
+                 insertIntoTreeSet·p0.90:   0.363 s/op
+                 insertIntoTreeSet·p0.95:   0.368 s/op
+                 insertIntoTreeSet·p0.99:   0.369 s/op
+                 insertIntoTreeSet·p0.999:  0.369 s/op
+                 insertIntoTreeSet·p0.9999: 0.369 s/op
+                 insertIntoTreeSet·p1.00:   0.369 s/op
+
+Iteration   5: 0.343 ±(99.9%) 0.005 s/op
+                 insertIntoTreeSet·p0.00:   0.335 s/op
+                 insertIntoTreeSet·p0.50:   0.341 s/op
+                 insertIntoTreeSet·p0.90:   0.353 s/op
+                 insertIntoTreeSet·p0.95:   0.365 s/op
+                 insertIntoTreeSet·p0.99:   0.372 s/op
+                 insertIntoTreeSet·p0.999:  0.372 s/op
+                 insertIntoTreeSet·p0.9999: 0.372 s/op
+                 insertIntoTreeSet·p1.00:   0.372 s/op
+
+Iteration   6: 0.344 ±(99.9%) 0.006 s/op
+                 insertIntoTreeSet·p0.00:   0.333 s/op
+                 insertIntoTreeSet·p0.50:   0.340 s/op
+                 insertIntoTreeSet·p0.90:   0.362 s/op
+                 insertIntoTreeSet·p0.95:   0.365 s/op
+                 insertIntoTreeSet·p0.99:   0.367 s/op
+                 insertIntoTreeSet·p0.999:  0.367 s/op
+                 insertIntoTreeSet·p0.9999: 0.367 s/op
+                 insertIntoTreeSet·p1.00:   0.367 s/op
+
+Iteration   7: 0.341 ±(99.9%) 0.005 s/op
+                 insertIntoTreeSet·p0.00:   0.333 s/op
+                 insertIntoTreeSet·p0.50:   0.339 s/op
+                 insertIntoTreeSet·p0.90:   0.350 s/op
+                 insertIntoTreeSet·p0.95:   0.364 s/op
+                 insertIntoTreeSet·p0.99:   0.364 s/op
+                 insertIntoTreeSet·p0.999:  0.364 s/op
+                 insertIntoTreeSet·p0.9999: 0.364 s/op
+                 insertIntoTreeSet·p1.00:   0.364 s/op
+
+Iteration   8: 0.342 ±(99.9%) 0.005 s/op
+                 insertIntoTreeSet·p0.00:   0.335 s/op
+                 insertIntoTreeSet·p0.50:   0.338 s/op
+                 insertIntoTreeSet·p0.90:   0.355 s/op
+                 insertIntoTreeSet·p0.95:   0.365 s/op
+                 insertIntoTreeSet·p0.99:   0.365 s/op
+                 insertIntoTreeSet·p0.999:  0.365 s/op
+                 insertIntoTreeSet·p0.9999: 0.365 s/op
+                 insertIntoTreeSet·p1.00:   0.365 s/op
+
+Iteration   9: 0.342 ±(99.9%) 0.005 s/op
+                 insertIntoTreeSet·p0.00:   0.334 s/op
+                 insertIntoTreeSet·p0.50:   0.340 s/op
+                 insertIntoTreeSet·p0.90:   0.350 s/op
+                 insertIntoTreeSet·p0.95:   0.364 s/op
+                 insertIntoTreeSet·p0.99:   0.367 s/op
+                 insertIntoTreeSet·p0.999:  0.367 s/op
+                 insertIntoTreeSet·p0.9999: 0.367 s/op
+                 insertIntoTreeSet·p1.00:   0.367 s/op
+
+Iteration  10: 0.342 ±(99.9%) 0.006 s/op
+                 insertIntoTreeSet·p0.00:   0.334 s/op
+                 insertIntoTreeSet·p0.50:   0.340 s/op
+                 insertIntoTreeSet·p0.90:   0.352 s/op
+                 insertIntoTreeSet·p0.95:   0.370 s/op
+                 insertIntoTreeSet·p0.99:   0.379 s/op
+                 insertIntoTreeSet·p0.999:  0.379 s/op
+                 insertIntoTreeSet·p0.9999: 0.379 s/op
+                 insertIntoTreeSet·p1.00:   0.379 s/op
+
+
+# Run progress: 75.00% complete, ETA 00:07:36
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.359 ±(99.9%) 0.012 s/op
+# Warmup Iteration   2: 0.355 ±(99.9%) 0.005 s/op
+# Warmup Iteration   3: 0.350 ±(99.9%) 0.010 s/op
+# Warmup Iteration   4: 0.344 ±(99.9%) 0.005 s/op
+# Warmup Iteration   5: 0.369 ±(99.9%) 0.027 s/op
+Iteration   1: 0.393 ±(99.9%) 0.036 s/op
+                 insertIntoTreeSet·p0.00:   0.342 s/op
+                 insertIntoTreeSet·p0.50:   0.378 s/op
+                 insertIntoTreeSet·p0.90:   0.501 s/op
+                 insertIntoTreeSet·p0.95:   0.511 s/op
+                 insertIntoTreeSet·p0.99:   0.513 s/op
+                 insertIntoTreeSet·p0.999:  0.513 s/op
+                 insertIntoTreeSet·p0.9999: 0.513 s/op
+                 insertIntoTreeSet·p1.00:   0.513 s/op
+
+Iteration   2: 0.391 ±(99.9%) 0.025 s/op
+                 insertIntoTreeSet·p0.00:   0.340 s/op
+                 insertIntoTreeSet·p0.50:   0.382 s/op
+                 insertIntoTreeSet·p0.90:   0.446 s/op
+                 insertIntoTreeSet·p0.95:   0.458 s/op
+                 insertIntoTreeSet·p0.99:   0.462 s/op
+                 insertIntoTreeSet·p0.999:  0.462 s/op
+                 insertIntoTreeSet·p0.9999: 0.462 s/op
+                 insertIntoTreeSet·p1.00:   0.462 s/op
+
+Iteration   3: 0.385 ±(99.9%) 0.026 s/op
+                 insertIntoTreeSet·p0.00:   0.342 s/op
+                 insertIntoTreeSet·p0.50:   0.376 s/op
+                 insertIntoTreeSet·p0.90:   0.438 s/op
+                 insertIntoTreeSet·p0.95:   0.461 s/op
+                 insertIntoTreeSet·p0.99:   0.472 s/op
+                 insertIntoTreeSet·p0.999:  0.472 s/op
+                 insertIntoTreeSet·p0.9999: 0.472 s/op
+                 insertIntoTreeSet·p1.00:   0.472 s/op
+
+Iteration   4: 0.389 ±(99.9%) 0.035 s/op
+                 insertIntoTreeSet·p0.00:   0.339 s/op
+                 insertIntoTreeSet·p0.50:   0.377 s/op
+                 insertIntoTreeSet·p0.90:   0.473 s/op
+                 insertIntoTreeSet·p0.95:   0.490 s/op
+                 insertIntoTreeSet·p0.99:   0.490 s/op
+                 insertIntoTreeSet·p0.999:  0.490 s/op
+                 insertIntoTreeSet·p0.9999: 0.490 s/op
+                 insertIntoTreeSet·p1.00:   0.490 s/op
+
+Iteration   5: 0.392 ±(99.9%) 0.025 s/op
+                 insertIntoTreeSet·p0.00:   0.339 s/op
+                 insertIntoTreeSet·p0.50:   0.397 s/op
+                 insertIntoTreeSet·p0.90:   0.443 s/op
+                 insertIntoTreeSet·p0.95:   0.453 s/op
+                 insertIntoTreeSet·p0.99:   0.458 s/op
+                 insertIntoTreeSet·p0.999:  0.458 s/op
+                 insertIntoTreeSet·p0.9999: 0.458 s/op
+                 insertIntoTreeSet·p1.00:   0.458 s/op
+
+Iteration   6: 0.373 ±(99.9%) 0.017 s/op
+                 insertIntoTreeSet·p0.00:   0.337 s/op
+                 insertIntoTreeSet·p0.50:   0.374 s/op
+                 insertIntoTreeSet·p0.90:   0.399 s/op
+                 insertIntoTreeSet·p0.95:   0.416 s/op
+                 insertIntoTreeSet·p0.99:   0.420 s/op
+                 insertIntoTreeSet·p0.999:  0.420 s/op
+                 insertIntoTreeSet·p0.9999: 0.420 s/op
+                 insertIntoTreeSet·p1.00:   0.420 s/op
+
+Iteration   7: 0.361 ±(99.9%) 0.020 s/op
+                 insertIntoTreeSet·p0.00:   0.338 s/op
+                 insertIntoTreeSet·p0.50:   0.345 s/op
+                 insertIntoTreeSet·p0.90:   0.411 s/op
+                 insertIntoTreeSet·p0.95:   0.428 s/op
+                 insertIntoTreeSet·p0.99:   0.434 s/op
+                 insertIntoTreeSet·p0.999:  0.434 s/op
+                 insertIntoTreeSet·p0.9999: 0.434 s/op
+                 insertIntoTreeSet·p1.00:   0.434 s/op
+
+Iteration   8: 0.362 ±(99.9%) 0.021 s/op
+                 insertIntoTreeSet·p0.00:   0.333 s/op
+                 insertIntoTreeSet·p0.50:   0.350 s/op
+                 insertIntoTreeSet·p0.90:   0.417 s/op
+                 insertIntoTreeSet·p0.95:   0.441 s/op
+                 insertIntoTreeSet·p0.99:   0.450 s/op
+                 insertIntoTreeSet·p0.999:  0.450 s/op
+                 insertIntoTreeSet·p0.9999: 0.450 s/op
+                 insertIntoTreeSet·p1.00:   0.450 s/op
+
+Iteration   9: 0.371 ±(99.9%) 0.020 s/op
+                 insertIntoTreeSet·p0.00:   0.337 s/op
+                 insertIntoTreeSet·p0.50:   0.360 s/op
+                 insertIntoTreeSet·p0.90:   0.420 s/op
+                 insertIntoTreeSet·p0.95:   0.441 s/op
+                 insertIntoTreeSet·p0.99:   0.450 s/op
+                 insertIntoTreeSet·p0.999:  0.450 s/op
+                 insertIntoTreeSet·p0.9999: 0.450 s/op
+                 insertIntoTreeSet·p1.00:   0.450 s/op
+
+Iteration  10: 0.367 ±(99.9%) 0.012 s/op
+                 insertIntoTreeSet·p0.00:   0.343 s/op
+                 insertIntoTreeSet·p0.50:   0.363 s/op
+                 insertIntoTreeSet·p0.90:   0.394 s/op
+                 insertIntoTreeSet·p0.95:   0.412 s/op
+                 insertIntoTreeSet·p0.99:   0.421 s/op
+                 insertIntoTreeSet·p0.999:  0.421 s/op
+                 insertIntoTreeSet·p0.9999: 0.421 s/op
+                 insertIntoTreeSet·p1.00:   0.421 s/op
+
+
+
+Result "ant.far.MyBenchmark.insertIntoTreeSet":
+  N = 268
+  mean =      0.378 ±(99.9%) 0.007 s/op
+
+  Histogram, s/op:
+    [0.300, 0.325) = 0 
+    [0.325, 0.350) = 71 
+    [0.350, 0.375) = 81 
+    [0.375, 0.400) = 58 
+    [0.400, 0.425) = 29 
+    [0.425, 0.450) = 17 
+    [0.450, 0.475) = 7 
+    [0.475, 0.500) = 3 
+    [0.500, 0.525) = 2 
+    [0.525, 0.550) = 0 
+    [0.550, 0.575) = 0 
+    [0.575, 0.600) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =      0.333 s/op
+     p(50.0000) =      0.369 s/op
+     p(90.0000) =      0.429 s/op
+     p(95.0000) =      0.450 s/op
+     p(99.0000) =      0.501 s/op
+     p(99.9000) =      0.513 s/op
+     p(99.9900) =      0.513 s/op
+     p(99.9990) =      0.513 s/op
+     p(99.9999) =      0.513 s/op
+    p(100.0000) =      0.513 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: ant.far.MyBenchmark.sortTreeSet
+
+# Run progress: 83.33% complete, ETA 00:05:04
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   2: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   3: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁷ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   4: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁷ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   5: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁷ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   6: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁷ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   7: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   0.001 s/op
+
+Iteration   8: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   9: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration  10: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁷ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+
+# Run progress: 91.66% complete, ETA 00:02:32
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁸ s/op
+# Warmup Iteration   3: ≈ 10⁻⁸ s/op
+# Warmup Iteration   4: ≈ 10⁻⁸ s/op
+# Warmup Iteration   5: ≈ 10⁻⁸ s/op
+Iteration   1: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   2: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   3: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   4: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   5: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   6: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   7: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortTreeSet·p1.00:   0.001 s/op
+
+Iteration   8: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁵ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration   9: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+Iteration  10: ≈ 10⁻⁸ s/op
+                 sortTreeSet·p0.00:   ≈ 0 s/op
+                 sortTreeSet·p0.50:   ≈ 0 s/op
+                 sortTreeSet·p0.90:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.95:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.99:   ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.999:  ≈ 10⁻⁷ s/op
+                 sortTreeSet·p0.9999: ≈ 10⁻⁶ s/op
+                 sortTreeSet·p1.00:   ≈ 10⁻⁵ s/op
+
+
+
+Result "ant.far.MyBenchmark.sortTreeSet":
+  N = 2442878
+  mean =     ≈ 10⁻⁸ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 2442877 
+    [0.000, 0.000) = 0 
+    [0.000, 0.000) = 0 
+    [0.000, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 1 
+    [0.001, 0.002) = 0 
+    [0.002, 0.002) = 0 
+    [0.002, 0.002) = 0 
+    [0.002, 0.002) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =        ≈ 0 s/op
+     p(90.0000) =     ≈ 10⁻⁷ s/op
+     p(95.0000) =     ≈ 10⁻⁷ s/op
+     p(99.0000) =     ≈ 10⁻⁷ s/op
+     p(99.9000) =     ≈ 10⁻⁷ s/op
+     p(99.9900) =     ≈ 10⁻⁶ s/op
+     p(99.9990) =     ≈ 10⁻⁵ s/op
+     p(99.9999) =     ≈ 10⁻⁵ s/op
+    p(100.0000) =      0.001 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: ant.far.MyBenchmark.insertIntoTreeSet
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.341 s/op
+# Warmup Iteration   2: 0.451 s/op
+# Warmup Iteration   3: 0.386 s/op
+# Warmup Iteration   4: 0.420 s/op
+# Warmup Iteration   5: 0.421 s/op
+Iteration   1: 0.396 s/op
+Iteration   2: 0.434 s/op
+Iteration   3: 0.366 s/op
+Iteration   4: 0.364 s/op
+Iteration   5: 0.404 s/op
+Iteration   6: 0.382 s/op
+Iteration   7: 0.410 s/op
+Iteration   8: 0.383 s/op
+Iteration   9: 0.399 s/op
+Iteration  10: 0.362 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.298 s/op
+# Warmup Iteration   2: 0.365 s/op
+# Warmup Iteration   3: 0.389 s/op
+# Warmup Iteration   4: 0.407 s/op
+# Warmup Iteration   5: 0.363 s/op
+Iteration   1: 0.370 s/op
+Iteration   2: 0.359 s/op
+Iteration   3: 0.363 s/op
+Iteration   4: 0.398 s/op
+Iteration   5: 0.377 s/op
+Iteration   6: 0.396 s/op
+Iteration   7: 0.391 s/op
+Iteration   8: 0.369 s/op
+Iteration   9: 0.397 s/op
+Iteration  10: 0.369 s/op
+
+
+Result "ant.far.MyBenchmark.insertIntoTreeSet":
+  N = 10
+  mean =      0.379 ±(99.9%) 0.023 s/op
+
+  Histogram, s/op:
+    [0.350, 0.353) = 0 
+    [0.353, 0.355) = 0 
+    [0.355, 0.358) = 0 
+    [0.358, 0.360) = 1 
+    [0.360, 0.363) = 0 
+    [0.363, 0.365) = 1 
+    [0.365, 0.368) = 0 
+    [0.368, 0.370) = 3 
+    [0.370, 0.373) = 0 
+    [0.373, 0.375) = 0 
+    [0.375, 0.378) = 1 
+    [0.378, 0.380) = 0 
+    [0.380, 0.383) = 0 
+    [0.383, 0.385) = 0 
+    [0.385, 0.388) = 0 
+    [0.388, 0.390) = 0 
+    [0.390, 0.393) = 1 
+    [0.393, 0.395) = 0 
+    [0.395, 0.398) = 2 
+
+  Percentiles, s/op:
+      p(0.0000) =      0.359 s/op
+     p(50.0000) =      0.373 s/op
+     p(90.0000) =      0.398 s/op
+     p(95.0000) =      0.398 s/op
+     p(99.0000) =      0.398 s/op
+     p(99.9000) =      0.398 s/op
+     p(99.9900) =      0.398 s/op
+     p(99.9990) =      0.398 s/op
+     p(99.9999) =      0.398 s/op
+    p(100.0000) =      0.398 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 19.0.1, Java HotSpot(TM) 64-Bit Server VM, 19.0.1+10-21
+# VM invoker: C:\Program Files\Java\jdk-19\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: ant.far.MyBenchmark.sortTreeSet
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁴ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   6: ≈ 10⁻⁶ s/op
+Iteration   7: ≈ 10⁻⁶ s/op
+Iteration   8: ≈ 10⁻⁶ s/op
+Iteration   9: ≈ 10⁻⁶ s/op
+Iteration  10: ≈ 10⁻⁶ s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁴ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   6: ≈ 10⁻⁶ s/op
+Iteration   7: ≈ 10⁻⁶ s/op
+Iteration   8: ≈ 10⁻⁶ s/op
+Iteration   9: ≈ 10⁻⁶ s/op
+Iteration  10: ≈ 10⁻⁶ s/op
+
+
+Result "ant.far.MyBenchmark.sortTreeSet":
+  N = 10
+  mean =     ≈ 10⁻⁶ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 4 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 2 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+
+  Percentiles, s/op:
+      p(0.0000) =     ≈ 10⁻⁶ s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁶ s/op
+     p(95.0000) =     ≈ 10⁻⁶ s/op
+     p(99.0000) =     ≈ 10⁻⁶ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁶ s/op
+     p(99.9990) =     ≈ 10⁻⁶ s/op
+     p(99.9999) =     ≈ 10⁻⁶ s/op
+    p(100.0000) =     ≈ 10⁻⁶ s/op
+
+
+# Run complete. Total time: 00:30:35
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                                  Mode      Cnt          Score          Error  Units
+MyBenchmark.insertIntoTreeSet                             thrpt       10          2.720 ±        0.117  ops/s
+MyBenchmark.sortTreeSet                                   thrpt       10  548099417.424 ± 13367015.421  ops/s
+MyBenchmark.insertIntoTreeSet                              avgt       10          0.366 ±        0.007   s/op
+MyBenchmark.sortTreeSet                                    avgt       10         ≈ 10⁻⁹                  s/op
+MyBenchmark.insertIntoTreeSet                            sample      268          0.378 ±        0.007   s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p0.00    sample                   0.333                  s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p0.50    sample                   0.369                  s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p0.90    sample                   0.429                  s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p0.95    sample                   0.450                  s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p0.99    sample                   0.501                  s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p0.999   sample                   0.513                  s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p0.9999  sample                   0.513                  s/op
+MyBenchmark.insertIntoTreeSet:insertIntoTreeSet·p1.00    sample                   0.513                  s/op
+MyBenchmark.sortTreeSet                                  sample  2442878         ≈ 10⁻⁸                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p0.00                sample                     ≈ 0                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p0.50                sample                     ≈ 0                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p0.90                sample                  ≈ 10⁻⁷                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p0.95                sample                  ≈ 10⁻⁷                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p0.99                sample                  ≈ 10⁻⁷                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p0.999               sample                  ≈ 10⁻⁷                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p0.9999              sample                  ≈ 10⁻⁶                  s/op
+MyBenchmark.sortTreeSet:sortTreeSet·p1.00                sample                   0.001                  s/op
+MyBenchmark.insertIntoTreeSet                                ss       10          0.379 ±        0.023   s/op
+MyBenchmark.sortTreeSet                                      ss       10         ≈ 10⁻⁶                  s/op
