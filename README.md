@@ -2,8 +2,8 @@ COSC 5P07 - Assignment 2 (Benchmark)
 =============================
 
 
-- [Task 1](#Task_1)
-- [Task 2](#Task_2)
+- [Task 1](#task-1)
+- [Task 2](#task-2)
 
 ----------------------------------
 
