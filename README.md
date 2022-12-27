@@ -1,5 +1,11 @@
+COSC 5P07 - Assignment 2 (Benchmark)
+=============================
 
-## COSC 5P07 - Assignment 2 (Benchmark)
+
+- [Task 1](#Task_1)
+- [Task 2](#Task_2)
+
+----------------------------------
 
 ### Task 1
 ---
@@ -88,7 +94,7 @@ TreeSet is faster than LinkedHashSet because TreeSet Uses TreeMap which implemen
 - TreeSet gives less performance than the HashSet and LinkedHashSet as it has to sort the elements after each insertion operations. Use TreeSet if you want to sort the elements according to some Comparator.
 
 
-
+---
 ### Task 2
 ---
 
