@@ -129,16 +129,20 @@ For every single file that needs to be sent, a thread is opened.  Each thread op
 <image src="Task2/Visualization/client-graph.jpg" style="height: 300px">
 <image src="Task2/Visualization/client-timeline.jpg" style="height: 300px">
 <image src="Task2/Visualization/client-metrics.jpg" style="height: 300px">
-  
+
+---
+
 - Server:
 <image src="Task2/Visualization/server-graph.jpg" style="height: 300px">
 <image src="Task2/Visualization/server-metrics.jpg" style="height: 300px">
   
 
+---
 
 ## Discussion:
 
 From the trace graphs, we can see that for handing each file, both server and client created a new thread.
 In total it took 30.12 ms for the client to complete sending the data of all files.  And the server was running for about 2 seconds, most of which actually was waiting time for requests. The time required for sending or saving was not always proportional to the file size. Also, even though multi-threading was used for both client and server, we didn't see any overlap of the threads. We suspect this is because of the Global Interpreter Lock in Python.
 
+---
 [Assignment Repository](https://github.com/MahmudAntor/COSC_5p07)
