@@ -110,7 +110,7 @@ WSL Version: 2.0
 
 ### Server Overview:
 
-The server creates a socket and keep listening for incoming requests. When request is received from a new client, a new thread gets created for handling the client. This thread takes care of receiving the data, decoding it and saving it in the output file. Upon completing it's job, the thread gets terminated.
+The server is a parallel computing entity. It utilizes threads to handle concurrent clients. It creates a socket and keeps listening for the incoming requests. When a request is received from a new client, a new thread is created for handling the client. This thread takes care of receiving the data, decoding it, and saving it in the output file. Upon completing its job, the thread gets terminated. The programme ends when all of the threads have finished processing and have been joined in the code. 
 
 ### Client Overview:
 
@@ -120,13 +120,13 @@ For every single file that needs to be sent, a thread is opened.  Each thread op
 
 - Client:
 
-<image src="https://github.com/MahmudAntor/COSC_5p07/blob/task-two-farhana/Task2/Visualization/client-graph.jpg" style="height: 300px">
-<image src="https://github.com/MahmudAntor/COSC_5p07/blob/task-two-farhana/Task2/Visualization/client-timeline.jpg" style="height: 300px">
-<image src="https://github.com/MahmudAntor/COSC_5p07/blob/task-two-farhana/Task2/Visualization/client-metrics.jpg" style="height: 300px">
+<image src="https://github.com/MahmudAntor/COSC_5p07/blob/master/Task2/Visualization/client-graph.jpg" style="height: 300px">
+<image src="https://github.com/MahmudAntor/COSC_5p07/blob/master/Task2/Visualization/client-timeline.jpg" style="height: 300px">
+<image src="https://github.com/MahmudAntor/COSC_5p07/blob/master/Task2/Visualization/client-metrics.jpg" style="height: 300px">
   
 - Server:
-<image src="https://github.com/MahmudAntor/COSC_5p07/blob/task-two-farhana/Task2/Visualization/server-graph.jpg" style="height: 300px">
-<image src="https://github.com/MahmudAntor/COSC_5p07/blob/task-two-farhana/Task2/Visualization/server-metrics.jpg" style="height: 300px">
+<image src="https://github.com/MahmudAntor/COSC_5p07/blob/master/Task2/Visualization/server-graph.jpg" style="height: 300px">
+<image src="https://github.com/MahmudAntor/COSC_5p07/blob/master/Task2/Visualization/server-metrics.jpg" style="height: 300px">
   
 
 
