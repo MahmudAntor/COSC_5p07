@@ -126,13 +126,13 @@ For every single file that needs to be sent, a thread is opened.  Each thread op
 
 - Client:
 
-<image src="https://github.com/MahmudAntor/COSC_5p07/blob/master/Task2/Visualization/client-graph.jpg" style="height: 300px">
-<image src="https://github.com/MahmudAntor/COSC_5p07/blob/master/Task2/Visualization/client-timeline.jpg" style="height: 300px">
-<image src="https://github.com/MahmudAntor/COSC_5p07/blob/master/Task2/Visualization/client-metrics.jpg" style="height: 300px">
+<image src="Task2/Visualization/client-graph.jpg" style="height: 300px">
+<image src="Task2/Visualization/client-timeline.jpg" style="height: 300px">
+<image src="Task2/Visualization/client-metrics.jpg" style="height: 300px">
   
 - Server:
-<image src="https://github.com/MahmudAntor/COSC_5p07/blob/master/Task2/Visualization/server-graph.jpg" style="height: 300px">
-<image src="https://github.com/MahmudAntor/COSC_5p07/blob/master/Task2/Visualization/server-metrics.jpg" style="height: 300px">
+<image src="Task2/Visualization/server-graph.jpg" style="height: 300px">
+<image src="Task2/Visualization/server-metrics.jpg" style="height: 300px">
   
 
 
